@@ -2522,6 +2522,9 @@ th.sorted[data-order="-1"] {
 
 .sticky-col {
   position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -o-sticky;
+  position: -ms-sticky;
   position: sticky;
 }
 
@@ -7939,7 +7942,7 @@ body.ie ._ibg img {
 }
 @media (max-width: 30rem) {
   .header-body__logo-text {
-    height: 1.25rem;
+    height: 1.375rem;
   }
 }
 .header-body__logo-text img {
