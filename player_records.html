@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>one publications</title>
+	<title>player stats</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="stylesheet" href="css/style.min.css?_v=20220228213019">
@@ -142,21 +142,23 @@
 
 		</div>
 		<main class="page">
-			<!-- ====================== PUBLICATION CONTAINER ====================== -->
-			<div class="publication__container">
+			<!-- ====================== PLAYER CONTAINER ====================== -->
+			<div class="player__container">
 
-				<!-- ====================== PUBLICATION WRAPPER ====================== -->
-				<div class="publication__wrapper">
+				<!-- ====================== PLAYER WRAPPER ====================== -->
+				<div class="player__wrapper">
 					<!-- ====================== BREADCRUMS ====================== -->
 					<nav class="breadcrumb__box" aria-label="breadcrumb">
 						<ol class="breadcrumb__list">
 							<li class="breadcrumb__item"><a href="#">Главная</a></li>
-							<li class="breadcrumb__item"><a href="#">Публикации</a></li>
-							<li class="breadcrumb__item active" aria-current="page">хроника публикаций</li>
+							<li class="breadcrumb__item"><a href="#">сообщество</a></li>
+							<li class="breadcrumb__item"><a href="#">игроки</a></li>
+							<li class="breadcrumb__item"><a href="#">касаткин даниил</a></li>
+							<li class="breadcrumb__item active" aria-current="page">рекорды</li>
 						</ol>
 					</nav>
 					<!-- ======================= BANNERS ======================== -->
-					<div class="publication__slider publication-banners">
+					<!-- <div class="publication__slider publication-banners">
 						<div class="publication-banners__body _swiper">
 							<div class="publication-banners__slide">
 								<div class="publication-banners__image">
@@ -199,8 +201,8 @@
 							<button type="button" class="slider-nav slider-arrow_next _icon-arrow-down-icon"></button>
 							<button type="button" class="slider-nav slider-arrow_prev _icon-arrow-down-icon"></button>
 						</div>
-					</div>
-
+					</div> -->
+					<!-- ====================== COLUMN LEFT ====================== -->
 					<section class="publications__norotator">
 						<div class="selector__buttons">
 							<button class="selected-button show-all">Публикации</button>
@@ -1374,301 +1376,350 @@
 
 						</div>
 					</section>
+					<div class="player__column">
+						<!-- ====================== PLAYER RECORDS ====================== -->
+						<section class="player__header-box">
+							<div class="header-page header-page__player header-player">
+								<div class="header-player__row">
+									<div class="header-player__content">
+										<div class="header-player__img _ibg">
 
+											<a href="#" class="header-player__photo"><picture><source srcset="img/profile/player-photo.webp" type="image/webp"><img src="img/profile/player-photo.jpg?_v=1646073019432" alt="player photo"></picture></a>
+										</div>
+										<div class="header-player__number"><span>14</span></div>
+										<div class="header-player__info">
+											<div class="header-player__title">
+												<a href="#" <h2>Карданахишвили александр</h2></a>
+												<span>14</span>
+											</div>
+											<div class="header-player__desc">
+												<ul class="header-player__list">
+													<li>разыгрывающий</li>
+													<li>23.02.2005</li>
+													<li><span>рост 200 см</span><span>/</span><span>вес 92 кг</span></li>
+												</ul>
+												<div class="header-player__social-icons">
+													<div class="header-player__items">
+														<a href="" class="header-player__item _icon-vk-vk-icon"></a>
+														<a href="" class="header-player__item _icon-facebook-icon"></a>
+														<a href="" class="header-player__item _icon-instagram-icon"></a>
+														<!-- <a href="" class="header-player__item _icon-telegram-icon"></a> 
+						<a href="" class="header-player__item _icon-youtube-icon"></a> -->
+													</div>
+												</div>
+											</div>
 
+										</div>
+									</div>
+									<div class="header-player__bg">
+										<picture><source srcset="img/profile/header-page-player-bg.webp" type="image/webp"><img src="img/profile/header-page-player-bg.png?_v=1646073019432" alt=""></picture>
+									</div>
+									<div class="header-player__bg-mini">
+										<picture><source srcset="img/profile/header-page-player-bg-mini.webp" type="image/webp"><img src="img/profile/header-page-player-bg-mini.png?_v=1646073019432" alt=""></picture>
+									</div>
+									<div class="header-player__bg-smal">
+										<picture><source srcset="img/profile/header-page-player-bg-smal.webp" type="image/webp"><img src="img/profile/header-page-player-bg-smal.png?_v=1646073019432" alt=""></picture>
+									</div>
+								</div>
+							</div>
+							<div class="player__profile-menu">
+								<div class="player-menu__container">
+									<ul class="player-menu__list">
+										<li class="player-menu__item">
+											<a class="player-menu__link" href="/players/profile/kasatkin-daniil-sergeevich-qxrkvei0">
+												профайл
+											</a>
+										</li>
+										<li class="player-menu__item">
+											<a class="player-menu__link" href="/players/stats?urlName=kasatkin-daniil-sergeevich-qxrkvei0">
+												статистика
+											</a>
+										</li>
+										<li class="player-menu__item">
+											<a class="player-menu__link" href="/players/shots-map?urlName=kasatkin-daniil-sergeevich-qxrkvei0">
+												карта бросков
+											</a>
+										</li>
+										<li class="player-menu__item">
+											<a class="player-menu__link" href="/players/schedule?urlName=kasatkin-daniil-sergeevich-qxrkvei0">
+												календарь
+											</a>
+										</li>
+										<li class="player-menu__item">
+											<a class="player-menu__link" href="/players/achievements?urlName=kasatkin-daniil-sergeevich-qxrkvei0">
+												достижения
+											</a>
+										</li>
+										<li class="player-menu__item player-menu__item-active">
+											<a class="player-menu__link player-menu__link-active" href="/players/records?urlName=kasatkin-daniil-sergeevich-qxrkvei0">
+												рекорды
+											</a>
+										</li>
+										<li class="player-menu__item">
+											<a class="player-menu__link" href="/players/publications?urlName=kasatkin-daniil-sergeevich-qxrkvei0">
+												медиа
+											</a>
+										</li>
 
-
-					<!-- ====================== COLUMN LEFT ====================== -->
-					<div class="publication__column">
-						<!-- ====================== PUBLICATION MAIN ====================== -->
-						<div class="publication__main main-publication">
-							<!-- ====================== PUBLICATION HEADER ====================== -->
-							<section class="main-publication__header publication-header">
-
-								<!-- ======================= BANNERS ======================== -->
-								<h1 class="publication-header__title">Сегодня определились последние участники плей-офф. ими
-									стали
-									москва
-									и Хабаровск</h1>
-								<div class="publication-header__tags header-tags">
-									<ul class="header-tags__list">
-										<li class="header-tags__item"><a href="#">нба сезон 2020/2021</a></li>
-										<li class="header-tags__item"><a href="#">матч всех звезд нба</a></li>
-										<li class="header-tags__item"><a href="#">лучшие игры НБА</a></li>
-										<li class="header-tags__item"><a href="#">финал НБА</a></li>
-										<li class="header-tags__item"><a href="#">обязательно к просмотру</a></li>
-										<li class="header-tags__item"><a href="#">лучшие молодые игроки</a></li>
-										<li class="header-tags__item"><a href="#">рейтинг игроков</a></li>
 									</ul>
 								</div>
-								<div class="publication-header__image">
-									<div class="publication-header__category">Единая Лига ВТБ</div>
-									<picture><source srcset="img/main-slider/32.webp" type="image/webp"><img class="publication-header__image-cover _ibg" src="img/main-slider/32.jpg?_v=1646073019432" alt=""></picture>
+
+								<div class="player-menu__form">
+									<select class="player-menu__form-list" name="form[]" class="form">
+										<option class="player-menu__form-item" value="1">профайл</option>
+										<option class="player-menu__form-item" value="2">статистика</option>
+										<option class="player-menu__form-item" value="3">карта бросков</option>
+										<option class="player-menu__form-item" value="4">календарь</option>
+										<option class="player-menu__form-item" value="5">достижения</option>
+										<option class="player-menu__form-item" value="6" selected>рекорды</option>
+										<option class="player-menu__form-item" value="7">медиа</option>
+
+									</select>
 								</div>
-								<div class="publication-header__icons header-icons">
-									<div class="header-icons__list">
-										<li class="header-icons__item"><a href="" class="header-icons__link _icon-calendar-icon"><span>12
-													февраля
-													2022</span></a>
-										</li>
-										<li class="header-icons__item"><a href="" class="header-icons__link _icon-view-icon"><span>1245</span></a>
-										</li>
-										<li class="header-icons__item"><a href="" class="header-icons__link _icon-chat-icon-1"><span>249</span></a></li>
-										<li class="header-icons__item"><a href="" class="header-icons__link _icon-like-icon"><span>814</span></a></li>
-									</div>
-								</div>
-							</section>
-							<!-- ======================= PUBLICATION BODY ======================= -->
-							<section class="main-publication__body publication-body">
-
-								<div class="publication-body__row">
-									<div class="publication-body__row-left">
-										<ul class="publication-body__share-list share-list">
+							</div>
+						</section>
 
 
-											<li class="share-list__item">
-												<a href="#" class="share-list__link _icon-Facebook_circle"></a>
-											</li>
-											<li class="share-list__item">
-												<a href="#" class="share-list__link _icon-VK_circle"></a>
-											</li>
-											<li class="share-list__item">
-												<a href="#" class="share-list__link _icon-Telegram_circle"></a>
-											</li>
-											<li class="share-list__item">
-												<a href="#" class="share-list__link _icon-Twitter_circle"></a>
-											</li>
-											<li class="share-list__item">
-												<a href="#" class="share-list__link _icon-WhatsApp_circle"></a>
-											</li>
-											<li class="share-list__item">
-												<a href="#" class="share-list__link _icon-Viber_circle"></a>
-											</li>
-
-										</ul>
-									</div>
-									<div class="publication-body__row-right">
-										<div class="publication-body__page-text">
-											<h3 class="publication-body__lead"> Российская Федерация Баскетбола объявила о
-												старте приема заявок кандидатов на должность старших тренеров резервных сборных
-												России
-												в
-												2020 году</h3>
-											<p>Женский турнир завершился полным триумфом сборной России (Юлия Козик, Екатерина
-												Поляшова, Евгения Фролкина, Ольга Фролкина). Наши девушки провели в этом розыгрыше
-												Лиге наций 29 матчей и во всех 29 добились победы! Напомним, что они стали
-												победительницами всех 6 отборочных этапов в Азиатско-Европейской конференции (в
-												каждом одержав по 4 победы).</p>
-											<p>В трех матчах россиянки были явно сильнее соперниц. А самыми тяжелыми оказались игры
-												против главных конкуренток – француженок. В группе наши девушки выиграли 21:19. В
-												финале же поначалу постоянно вели соперницы, однако сборная России смогла
-												перехватить инициативу и выйти вперед – 11:9 после дальнего попадания Ольги
-												Фролкиной. Тем не менее, команде Франции еще удалось сравнять счет – 13:13 за 2.39
-												до конца, но больше она не набрала ни одного очка. Решающим оказался меткий
-												двухочковый Евгении Фролкиной на предпоследней минуте, установивший окончательный
-												счет (16:13). А в защите здорово отыграла Юлия Козик, в концовке совершив целую
-												серию перехватов. Титул MVP турнира достался еще одному игроку сборной России –
-												Поляшовой.</p>
-											<p>Наша мужская сборная, которая тоже встретилась в финале с Францией, не смогла
-												повторить достижение девушек, но, заняв второе место, совершила настоящий подвиг.
-												Все дело в том, что по правилам в заявку команды на Лигу наций могут быть внесены
-												только 6 игроков. А у россиян по различным причинам не смогли принять участие в
-												финальном турнире сразу трое. В результате Андрей Киселев, Сергей Кривых и Дмитрий
-												Чебуркин провели все 5 матчей без замен!</p>
-
-											<div class="publication-body__video-player video-player">
-												<div class="video-player__item">
-													<iframe src="https://www.youtube.com/embed/60QLAXp4CgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-												</div>
+						<div data-spollers class="player__row-2">
+							<div class="player__person-stats">
+								<button type="button" data-spoller class="section__title-2 person-stats__title _spoller-active">рекорды</button>
+								<div class="person-stats__body">
+									<div class="person-stats__nav-row">
+										<form action="#" class="person-stats__form">
+											<div class="person-stats__line">
+												<label class="person-stats__label" for="select-season">Выбрать сезон</label>
+												<select name="form[]" class="person-stats__list">
+													<option class="person-stats__item" value="1" selected="selected">2021/2022</option>
+													<option class="person-stats__item" value="2">2020/2021</option>
+													<option class="person-stats__item" value="3">2019/2020</option>
+													<option class="person-stats__item" value="4">2018/2019</option>
+													<option class="person-stats__item" value="5">2017/2018</option>
+													<option class="person-stats__item" value="6">2016/2017</option>
+													<option class="person-stats__item" value="7">2015/2016</option>
+												</select>
 											</div>
-											<div class="publication-body__caption">Хьстон рокетс против сакраменто кингз, сезон нба
-												2018/2019</div>
-
-											<p>Наша мужская сборная, которая тоже встретилась в финале с Францией, не смогла
-												повторить достижение девушек, но, заняв второе место, совершила настоящий подвиг.
-												Все дело в том, что по правилам в заявку команды на Лигу наций могут быть внесены
-												только 6 игроков. А у россиян по различным причинам не смогли принять участие в
-												финальном турнире сразу трое. В результате Андрей Киселев, Сергей Кривых и Дмитрий
-												Чебуркин провели все 5 матчей без замен!</p>
-
-											<div class="publication-body__video-player video-player">
-												<div class="video-player__item">
-													<iframe src="https://www.youtube.com/embed/wHjZP18CS7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-												</div>
+											<div class="person-stats__line">
+												<label class="person-stats__label" for="select-tournament">Выбрать турнир</label>
+												<select name="form[]" class="person-stats__list">
+													<option class="person-stats__item" value="1" selected="selected">Суперлига-1</option>
+													<option class="person-stats__item" value="2">Единая Лига ВТБ</option>
+													<option class="person-stats__item" value="3">Евролига</option>
+													<option class="person-stats__item" value="4">Молодежная Лига ВТБ</option>
+													<option class="person-stats__item" value="5">Первенство России</option>
+													<option class="person-stats__item" value="6">Сборная России</option>
+												</select>
 											</div>
-											<div class="publication-body__caption">Хьстон рокетс против сакраменто кингз, сезон нба
-												2018/2019</div>
-
-											<h2 class="publication-body__subtitle"> Российская Федерация Баскетбола объявила</h2>
-
-											<p>Наша мужская сборная, которая тоже встретилась в финале с Францией, не смогла
-												повторить достижение девушек, но, заняв второе место, совершила настоящий подвиг.
-												Все дело в том, что по правилам в заявку команды на Лигу наций могут быть внесены
-												только 6 игроков. А у россиян по различным причинам не смогли принять участие в
-												финальном турнире сразу трое. В результате Андрей Киселев, Сергей Кривых и Дмитрий
-												Чебуркин провели все 5 матчей без замен!</p>
-											<div class="publication-body__image">
-												<picture><source srcset="img/main-slider/33.webp" type="image/webp"><img class="publication-body__image-cover _ibg" src="img/main-slider/33.jpg?_v=1646073019432" alt=""></picture>
+											<div class="person-stats__line">
+												<label class="person-stats__label" for="select-tournament">Показать личный рекорд</label>
+												<select name="form[]" class="person-stats__list">
+													<option class="person-stats__item" value="1" selected="selected">В одной игре</option>
+													<option class="person-stats__item" value="2">В одном сезоне</option>
+													<option class="person-stats__item" value="3">Всего в карьере</option>
+												</select>
 											</div>
+										</form>
+									</div>
+									<div class="table-stats__wrapper">
+										<table class="table-stats__table table_sort">
+											<thead>
+												<tr>
+													<th class="sticky-col first-col" data-order="0" id="table-title">
+														<span>личные рекорды</span>
+													</th>
+													<th data-order="0" id="sort-off" colspan="6"><span></span></th>
 
-											<div class="publication-body__caption">Хьстон рокетс против сакраменто кингз, сезон
-												нба
-												2018/2019</div>
+												</tr>
+												<tr>
+													<th data-order="0" class="sticky-col first-col" id="sort-off">показатель</th>
+													<th data-order="0" class="sticky-col second-col" id="text-center">рекорд</th>
+													<th data-order="0" id="text-center">команда</th>
+													<th data-order="0" id="text-center">игра</th>
+													<th data-order="0" id="text-center">соперник</th>
+													<th data-order="0" id="text-center">дата</th>
+													<th data-order="0" id="text-center">сезон</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td class="sticky-col first-col">очки</td>
+													<td class="sticky-col second-col" id="text-center">45</td>
+													<td id="team-cell"><a href="#"><span>Динамо Владивосток</span></a><span id="table-team-location">Владивосток, Россия</span></td>
+													<td id="text-center"><a href="#"><span>75:74</span></a></td>
+													<td id="team-cell"><a href="#"><span>Спартак</span></a><span id="table-team-location">Санкт-Петербург,
+															Россия</span></td>
+													<td id="text-center">22.02.2022</td>
+													<td id="text-center" id="season">2021/2022</td>
 
-											<h2 class="publication-body__subtitle">Сборная России смогла перехватить инициатив
-											</h2>
-											<p>Женский турнир завершился полным триумфом сборной России (Юлия Козик, Екатерина
-												Поляшова, Евгения Фролкина, Ольга Фролкина). Наши девушки провели в этом
-												розыгрыше
-												Лиге наций 29 матчей и во всех 29 добились победы! Напомним, что они стали
-												победительницами всех 6 отборочных этапов в Азиатско-Европейской конференции (в
-												каждом одержав по 4 победы).</p>
-											<p>В трех матчах россиянки были явно сильнее соперниц. А самыми тяжелыми оказались
-												игры
-												против главных конкуренток – француженок. В группе наши девушки выиграли 21:19. В
-												финале же поначалу постоянно вели соперницы, однако сборная России смогла
-												перехватить инициативу и выйти вперед – 11:9 после дальнего попадания Ольги
-												Фролкиной. Тем не менее, команде Франции еще удалось сравнять счет – 13:13 за
-												2.39
-												до конца, но больше она не набрала ни одного очка. Решающим оказался меткий
-												двухочковый Евгении Фролкиной на предпоследней минуте, установивший окончательный
-												счет (16:13). А в защите здорово отыграла Юлия Козик, в концовке совершив целую
-												серию перехватов. Титул MVP турнира достался еще одному игроку сборной России –
-												Поляшовой.</p>
-											<p>Наша мужская сборная, которая тоже встретилась в финале с Францией, не смогла
-												повторить достижение девушек, но, заняв второе место, совершила настоящий подвиг.
-												Все дело в том, что по правилам в заявку команды на Лигу наций могут быть внесены
-												только 6 игроков. А у россиян по различным причинам не смогли принять участие в
-												финальном турнире сразу трое. В результате Андрей Киселев, Сергей Кривых и
-												Дмитрий
-												Чебуркин провели все 5 матчей без замен!</p>
-											<p>В трех матчах россиянки были явно сильнее соперниц. А самыми тяжелыми оказались
-												игры
-												против главных конкуренток – француженок. В группе наши девушки выиграли 21:19. В
-												финале же поначалу постоянно вели соперницы, однако сборная России смогла
-												перехватить инициативу и выйти вперед – 11:9 после дальнего попадания Ольги
-												Фролкиной. Тем не менее, команде Франции еще удалось сравнять счет – 13:13 за
-												2.39
-												до конца, но больше она не набрала ни одного очка. Решающим оказался меткий
-												двухочковый Евгении Фролкиной на предпоследней минуте, установивший окончательный
-												счет (16:13). А в защите здорово отыграла Юлия Козик, в концовке совершив целую
-												серию перехватов. Титул MVP турнира достался еще одному игроку сборной России –
-												Поляшовой.</p>
-											<ul class="publication__signature signature">
-												<li class="signature__item _icon-photo-camera-icon"><span>Фото:
-													</span><a class="signature__link" href="#">Кучерова Елена</a></li>
-												<li class="signature__item _icon-edit-icon"><span>Автор:
-													</span><a class="signature__link" href="#">Кучерова Елена</a></li>
-												<li class="signature__item _icon-home-icon"><span>Источник:
-													</span><a class="signature__link" href="#">sports.ru</a></li>
-											</ul>
+												</tr>
+												<tr>
+													<td class="sticky-col first-col">подборы</td>
+													<td class="sticky-col second-col" id="text-center">18</td>
+													<td id="team-cell"><a href="#"><span>Динамо Владивосток</span></a><span id="table-team-location">Владивосток, Россия</span></td>
+													<td id="text-center"><a href="#"><span>75:74</span></a></td>
+													<td id="team-cell"><a href="#"><span>Спартак</span></a><span id="table-team-location">Санкт-Петербург,
+															Россия</span></td>
+													<td id="text-center">22.02.2022</td>
+													<td id="text-center" id="season">2021/2022</td>
 
-										</div>
+												</tr>
+												<tr>
+													<td class="sticky-col first-col">передачи</td>
+													<td class="sticky-col second-col" id="text-center">12</td>
+													<td id="team-cell"><a href="#"><span>Динамо Владивосток</span></a><span id="table-team-location">Владивосток, Россия</span></td>
+													<td id="text-center"><a href="#"><span>75:74</span></a></td>
+													<td id="team-cell"><a href="#"><span>Спартак</span></a><span id="table-team-location">Санкт-Петербург,
+															Россия</span></td>
+													<td id="text-center">22.02.2022</td>
+													<td id="text-center" id="season">2021/2022</td>
 
-									</div>
-								</div>
+												</tr>
+												<tr>
+													<td class="sticky-col first-col">перехваты</td>
+													<td class="sticky-col second-col" id="text-center">45</td>
+													<td id="team-cell"><a href="#"><span>Динамо Владивосток</span></a><span id="table-team-location">Владивосток, Россия</span></td>
+													<td id="text-center"><a href="#"><span>75:74</span></a></td>
+													<td id="team-cell"><a href="#"><span>Спартак</span></a><span id="table-team-location">Санкт-Петербург,
+															Россия</span></td>
+													<td id="text-center">22.02.2022</td>
+													<td id="text-center" id="season">2021/2022</td>
 
-							</section>
-							<!-- ==================== PUBLICATION FOOTER ===================== -->
-							<section class="main-publication__footer publication-footer">
-							</section>
-						</div>
-						<!-- ====================== PUBLICATION COLUMN RIGHT ====================== -->
-						<div class="publication__column-right">
-							<div class="publication__aside publication-aside">
-								<div class="publication__banner-box banner-box">
-									<div class="banner-box__image">
-										<a href="#" class="banner-box__link">
-											<picture><source srcset="img/banners/07.webp" type="image/webp"><img class="banner-box__image-cover _ibg" src="img/banners/07.jpg?_v=1646073019432" alt=""></picture>
-										</a>
-									</div>
-									<div class="banner-box__image">
-										<a href="#" class="banner-box__link">
-											<picture><source srcset="img/banners/08.webp" type="image/webp"><img class="banner-box__image-cover _ibg" src="img/banners/08.jpg?_v=1646073019432" alt=""></picture>
-										</a>
-									</div>
-									<div class="banner-box__image">
-										<a href="#" class="banner-box__link">
-											<picture><source srcset="img/banners/09.webp" type="image/webp"><img class="banner-box__image-cover _ibg" src="img/banners/09.jpg?_v=1646073019432" alt=""></picture>
-										</a>
-									</div>
-									<div class="banner-box__image">
-										<a href="#" class="banner-box__link">
-											<picture><source srcset="img/banners/11.webp" type="image/webp"><img class="banner-box__image-cover _ibg" src="img/banners/11.jpg?_v=1646073019432" alt=""></picture>
-										</a>
-									</div>
-								</div>
-								<div data-spollers class="publication-aside__spollers aside-spollers">
-									<div class="aside-spollers__item">
-										<button type="button" data-spoller class="aside-spollers__title">теги</button>
-										<div class="aside-spollers__body">
-											<ul class="header-tags__list">
-												<li class="header-tags__item"><a href="#">нба сезон 2020/2021</a></li>
-												<li class="header-tags__item"><a href="#">матч всех звезд нба</a></li>
-												<li class="header-tags__item"><a href="#">лучшие игры НБА</a></li>
-												<li class="header-tags__item"><a href="#">финал НБА</a></li>
-												<li class="header-tags__item"><a href="#">обязательно к просмотру</a></li>
-												<li class="header-tags__item"><a href="#">лучшие молодые игроки</a></li>
-												<li class="header-tags__item"><a href="#">рейтинг игроков</a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="aside-spollers__item">
-										<button type="button" data-spoller class="aside-spollers__title">турнир</button>
-										<div class="aside-spollers__body">
-											<img src="img/Logo/superliga_logo.svg?_v=1646073019432" alt="tournament logo">
-											<ul class="tournaments-menu__list menu-list">
-												<li class="menu-list__item"><a href="#">о турнире</a></li>
-												<li class="menu-list__item"><a href="#">турнирная таблица</a></li>
-												<li class="menu-list__item"><a href="#">расписание игр</a></li>
-												<li class="menu-list__item"><a href="#">статистика</a></li>
-												<li class="menu-list__item"><a href="#">команды</a></li>
-												<li class="menu-list__item"><a href="#">игроки</a></li>
-												<li class="menu-list__item"><a href="#">рекорды</a></li>
-												<li class="menu-list__item"><a href="#">история</a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="aside-spollers__item">
-										<button type="button" data-spoller class="aside-spollers__title">персоны</button>
-										<div class="aside-spollers__body">
-											<ul class="tournaments-menu__list menu-list">
-												<li class="menu-list__item"><a href="#">даниил касаткин</a></li>
-												<li class="menu-list__item"><a href="#">малик трент</a></li>
-												<li class="menu-list__item"><a href="#">григорий шуховцов</a></li>
-												<li class="menu-list__item"><a href="#">иван пынько</a></li>
-												<li class="menu-list__item"><a href="#">владимир карпенко</a></li>
-												<li class="menu-list__item"><a href="#">юрий умрихин</a></li>
-											</ul>
+												</tr>
+												<tr>
+													<td class="sticky-col first-col">потери</td>
+													<td class="sticky-col second-col" id="text-center">18</td>
+													<td id="team-cell"><a href="#"><span>Динамо Владивосток</span></a><span id="table-team-location">Владивосток, Россия</span></td>
+													<td id="text-center"><a href="#"><span>75:74</span></a></td>
+													<td id="team-cell"><a href="#"><span>Спартак</span></a><span id="table-team-location">Санкт-Петербург,
+															Россия</span></td>
+													<td id="text-center">22.02.2022</td>
+													<td id="text-center" id="season">2021/2022</td>
 
-										</div>
-									</div>
-									<div class="aside-spollers__item">
-										<button type="button" data-spoller class="aside-spollers__title">организации</button>
-										<div class="aside-spollers__body">
-											<ul class="tournaments-menu__list menu-list">
-												<li class="menu-list__item"><a href="#">пбк цска</a></li>
-												<li class="menu-list__item"><a href="#">бк новосибирск</a></li>
-												<li class="menu-list__item"><a href="#">бк уфимец</a></li>
-												<li class="menu-list__item"><a href="#">пбк мба</a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="aside-spollers__item">
-										<button type="button" data-spoller class="aside-spollers__title">события</button>
-										<div class="aside-spollers__body">
-											<ul class="tournaments-menu__list menu-list">
-												<li class="menu-list__item"><a href="#">тренировочный лагерь Jumpball</a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="aside-spollers__item">
-										<button type="button" data-spoller class="aside-spollers__title">объекты</button>
-										<div class="aside-spollers__body">
-											<ul class="tournaments-menu__list menu-list">
-												<li class="menu-list__item"><a href="#">спортивная база "море спорта"</a></li>
-											</ul>
-										</div>
+												</tr>
+												<tr>
+													<td class="sticky-col first-col">2-х очковые / забито</td>
+													<td class="sticky-col second-col" id="text-center">12</td>
+													<td id="team-cell"><a href="#"><span>Динамо Владивосток</span></a><span id="table-team-location">Владивосток, Россия</span></td>
+													<td id="text-center"><a href="#"><span>75:74</span></a></td>
+													<td id="team-cell"><a href="#"><span>Спартак</span></a><span id="table-team-location">Санкт-Петербург,
+															Россия</span></td>
+													<td id="text-center">22.02.2022</td>
+													<td id="text-center" id="season">2021/2022</td>
+
+												</tr>
+												<tr>
+													<td class="sticky-col first-col">2-х очковые / попытки</td>
+													<td class="sticky-col second-col" id="text-center">12</td>
+													<td id="team-cell"><a href="#"><span>Динамо Владивосток</span></a><span id="table-team-location">Владивосток, Россия</span></td>
+													<td id="text-center"><a href="#"><span>75:74</span></a></td>
+													<td id="team-cell"><a href="#"><span>Спартак</span></a><span id="table-team-location">Санкт-Петербург,
+															Россия</span></td>
+													<td id="text-center">22.02.2022</td>
+													<td id="text-center" id="season">2021/2022</td>
+
+												</tr>
+												<tr>
+													<td class="sticky-col first-col">3-х очковые / забито</td>
+													<td class="sticky-col second-col" id="text-center">12</td>
+													<td id="team-cell"><a href="#"><span>Динамо Владивосток</span></a><span id="table-team-location">Владивосток, Россия</span></td>
+													<td id="text-center"><a href="#"><span>75:74</span></a></td>
+													<td id="team-cell"><a href="#"><span>Спартак</span></a><span id="table-team-location">Санкт-Петербург,
+															Россия</span></td>
+													<td id="text-center">22.02.2022</td>
+													<td id="text-center" id="season">2021/2022</td>
+
+												</tr>
+												<tr>
+													<td class="sticky-col first-col">3-х очковые / попытки</td>
+													<td class="sticky-col second-col" id="text-center">12</td>
+													<td id="team-cell"><a href="#"><span>Динамо Владивосток</span></a><span id="table-team-location">Владивосток, Россия</span></td>
+													<td id="text-center"><a href="#"><span>75:74</span></a></td>
+													<td id="team-cell"><a href="#"><span>Спартак</span></a><span id="table-team-location">Санкт-Петербург,
+															Россия</span></td>
+													<td id="text-center">22.02.2022</td>
+													<td id="text-center" id="season">2021/2022</td>
+
+												</tr>
+												<tr>
+													<td class="sticky-col first-col">штрафные / забито</td>
+													<td class="sticky-col second-col" id="text-center">12</td>
+													<td id="team-cell"><a href="#"><span>Динамо Владивосток</span></a><span id="table-team-location">Владивосток, Россия</span></td>
+													<td id="text-center"><a href="#"><span>75:74</span></a></td>
+													<td id="team-cell"><a href="#"><span>Спартак</span></a><span id="table-team-location">Санкт-Петербург,
+															Россия</span></td>
+													<td id="text-center">22.02.2022</td>
+													<td id="text-center" id="season">2021/2022</td>
+
+												</tr>
+												<tr>
+													<td class="sticky-col first-col">штрафные / попытки</td>
+													<td class="sticky-col second-col" id="text-center">12</td>
+													<td id="team-cell"><a href="#"><span>Динамо Владивосток</span></a><span id="table-team-location">Владивосток, Россия</span></td>
+													<td id="text-center"><a href="#"><span>75:74</span></a></td>
+													<td id="team-cell"><a href="#"><span>Спартак</span></a><span id="table-team-location">Санкт-Петербург,
+															Россия</span></td>
+													<td id="text-center">22.02.2022</td>
+													<td id="text-center" id="season">2021/2022</td>
+
+												</tr>
+
+												<tr>
+													<td class="sticky-col first-col">фолы</td>
+													<td class="sticky-col second-col" id="text-center">45</td>
+													<td id="team-cell"><a href="#"><span>Динамо Владивосток</span></a><span id="table-team-location">Владивосток, Россия</span></td>
+													<td id="text-center"><a href="#"><span>75:74</span></a></td>
+													<td id="team-cell"><a href="#"><span>Спартак</span></a><span id="table-team-location">Санкт-Петербург,
+															Россия</span></td>
+													<td id="text-center">22.02.2022</td>
+													<td id="text-center" id="season">2021/2022</td>
+
+												</tr>
+												<tr>
+													<td class="sticky-col first-col">фолы соперника</td>
+													<td class="sticky-col second-col" id="text-center">18</td>
+													<td id="team-cell"><a href="#"><span>Динамо Владивосток</span></a><span id="table-team-location">Владивосток, Россия</span></td>
+													<td id="text-center"><a href="#"><span>75:74</span></a></td>
+													<td id="team-cell"><a href="#"><span>Спартак</span></a><span id="table-team-location">Санкт-Петербург,
+															Россия</span></td>
+													<td id="text-center">22.02.2022</td>
+													<td id="text-center" id="season">2021/2022</td>
+
+												</tr>
+												<tr>
+													<td class="sticky-col first-col">+/-</td>
+													<td class="sticky-col second-col" id="text-center">12</td>
+													<td id="team-cell"><a href="#"><span>Динамо Владивосток</span></a><span id="table-team-location">Владивосток, Россия</span></td>
+													<td id="text-center"><a href="#"><span>75:74</span></a></td>
+													<td id="team-cell"><a href="#"><span>Спартак</span></a><span id="table-team-location">Санкт-Петербург,
+															Россия</span></td>
+													<td id="text-center">22.02.2022</td>
+													<td id="text-center" id="season">2021/2022</td>
+
+												</tr>
+												<tr>
+													<td class="sticky-col first-col">КПИ</td>
+													<td class="sticky-col second-col" id="text-center">45</td>
+													<td id="team-cell"><a href="#"><span>Динамо Владивосток</span></a><span id="table-team-location">Владивосток, Россия</span></td>
+													<td id="text-center"><a href="#"><span>75:74</span></a></td>
+													<td id="team-cell"><a href="#"><span>Спартак</span></a><span id="table-team-location">Санкт-Петербург,
+															Россия</span></td>
+													<td id="text-center">22.02.2022</td>
+													<td id="text-center" id="season">2021/2022</td>
+
+												</tr>
+
+											</tbody>
+											<tfoot>
+												<tr>
+													<td class="sticky-col first-col"></td>
+													<td class="sticky-col second-col"></td>
+													<td id="text-center"></td>
+													<td id="text-center"></td>
+													<td id="text-center"></td>
+													<td id="text-center"></td>
+													<td id="text-center"></td>
+												</tr>
+											</tfoot>
+										</table>
 									</div>
 								</div>
 							</div>
@@ -1676,6 +1727,7 @@
 					</div>
 				</div>
 			</div>
+
 			<!-- ======================= PARTNERS ======================== -->
 			<section class="page__playmate playmate">
 				<div class="playmate__box">
