@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>player arhievements</title>
+	<title>player media</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="stylesheet" href="css/style.min.css?_v=20220305030807">
@@ -154,7 +154,7 @@
 							<li class="breadcrumb__item"><a href="#">сообщество</a></li>
 							<li class="breadcrumb__item"><a href="#">игроки</a></li>
 							<li class="breadcrumb__item"><a href="#">касаткин даниил</a></li>
-							<li class="breadcrumb__item active" aria-current="page">достижения</li>
+							<li class="breadcrumb__item active" aria-current="page">медиа</li>
 						</ol>
 					</nav>
 					<!-- ======================= BANNERS ======================== -->
@@ -1377,7 +1377,8 @@
 						</div>
 					</section>
 					<div class="player__column">
-						<!-- ====================== PLAYER MAIN ====================== -->
+						<!-- ====================== PLAYER MEDIA ====================== -->
+
 						<section class="player__header-box">
 							<div class="header-page header-page__player header-player">
 								<div class="header-player__row">
@@ -1423,9 +1424,10 @@
 								</div>
 							</div>
 							<div class="player__profile-menu">
+								<!-- ====================== PLAYER MENU ====================== -->
 								<div class="player-menu__container">
 									<ul class="player-menu__list">
-										<li class="player-menu__item player-menu__item-active">
+										<li class="player-menu__item">
 											<a class="player-menu__link" href="/players/profile/kasatkin-daniil-sergeevich-qxrkvei0">
 												профайл
 											</a>
@@ -1446,7 +1448,7 @@
 											</a>
 										</li>
 										<li class="player-menu__item">
-											<a class="player-menu__link player-menu__link-active" href="/players/achievements?urlName=kasatkin-daniil-sergeevich-qxrkvei0">
+											<a class="player-menu__link" href="/players/achievements?urlName=kasatkin-daniil-sergeevich-qxrkvei0">
 												достижения
 											</a>
 										</li>
@@ -1455,408 +1457,281 @@
 												рекорды
 											</a>
 										</li>
-										<li class="player-menu__item">
-											<a class="player-menu__link" href="/players/publications?urlName=kasatkin-daniil-sergeevich-qxrkvei0">
+										<li class="player-menu__item player-menu__item-active">
+											<a class="player-menu__link player-menu__link-active" href="/players/publications?urlName=kasatkin-daniil-sergeevich-qxrkvei0">
 												медиа
 											</a>
 										</li>
 
 									</ul>
 								</div>
-
+								<!-- ====================== PLAYER MENU-DROPDOWN ====================== -->
 								<div class="player-menu__form">
 									<select class="player-menu__form-list" name="form[]" class="form">
 										<option class="player-menu__form-item" value="1">профайл</option>
 										<option class="player-menu__form-item" value="2">статистика</option>
 										<option class="player-menu__form-item" value="3">карта бросков</option>
 										<option class="player-menu__form-item" value="4">календарь</option>
-										<option class="player-menu__form-item" value="5" selected>достижения</option>
+										<option class="player-menu__form-item" value="5">достижения</option>
 										<option class="player-menu__form-item" value="6">рекорды</option>
-										<option class="player-menu__form-item" value="7">медиа</option>
+										<option class="player-menu__form-item" value="7" selected>медиа</option>
 
 									</select>
 								</div>
 							</div>
 						</section>
-
-						<div data-spollers class="spollers player__row-1">
-							<div class="player__person-arhievements-full">
-								<button type="button" data-spoller class="section__title-2 person-career__title _spoller-active">достижения</button>
-								<div class="person-arhievements-full__body">
-									<!-- <section id=timeline>
-	<h1>A Flexbox Timeline</h1>
-	<p class="leader">All cards must be the same height and width for space calculations on large screens.</p>
-	<div class="demo-card-wrapper">
-		<div class="demo-card demo-card--step1">
-			<div class="head">
-				<div class="number-box">
-					<span>01</span>
-				</div>
-				<h2><span class="small">Subtitle</span> Technology</h2>
-			</div>
-			<div class="body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus
-					consequatur, laudantium odio dolorum laboriosam.</p>
-				<picture><source srcset="http://placehold.it/1000x500" type="image/webp"><img src="http://placehold.it/1000x500?_v=1646438887492" alt="Graphic"></picture>
-			</div>
-		</div>
-
-		<div class="demo-card demo-card--step2">
-			<div class="head">
-				<div class="number-box">
-					<span>02</span>
-				</div>
-				<h2><span class="small">Subtitle</span> Confidence</h2>
-			</div>
-			<div class="body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus
-					consequatur, laudantium odio dolorum laboriosam.</p>
-				<picture><source srcset="http://placehold.it/1000x500" type="image/webp"><img src="http://placehold.it/1000x500?_v=1646438887492" alt="Graphic"></picture>
-			</div>
-		</div>
-
-		<div class="demo-card demo-card--step3">
-			<div class="head">
-				<div class="number-box">
-					<span>03</span>
-				</div>
-				<h2><span class="small">Subtitle</span> Adaptation</h2>
-			</div>
-			<div class="body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus
-					consequatur, laudantium odio dolorum laboriosam.</p>
-				<picture><source srcset="http://placehold.it/1000x500" type="image/webp"><img src="http://placehold.it/1000x500?_v=1646438887492" alt="Graphic"></picture>
-			</div>
-		</div>
-
-		<div class="demo-card demo-card--step4">
-			<div class="head">
-				<div class="number-box">
-					<span>04</span>
-				</div>
-				<h2><span class="small">Subtitle</span> Consistency</h2>
-			</div>
-			<div class="body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus
-					consequatur, laudantium odio dolorum laboriosam.</p>
-				<picture><source srcset="http://placehold.it/1000x500" type="image/webp"><img src="http://placehold.it/1000x500?_v=1646438887492" alt="Graphic"></picture>
-			</div>
-		</div>
-
-		<div class="demo-card demo-card--step5">
-			<div class="head">
-				<div class="number-box">
-					<span>05</span>
-				</div>
-				<h2><span class="small">Subtitle</span> Conversion</h2>
-			</div>
-			<div class="body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus
-					consequatur, laudantium odio dolorum laboriosam.</p>
-				<picture><source srcset="http://placehold.it/1000x500" type="image/webp"><img src="http://placehold.it/1000x500?_v=1646438887492" alt="Graphic"></picture>
-			</div>
-		</div>
-
-	</div>
-</section> -->
+						<!-- ======================= PLAYER PHOTO GALERY ======================== -->
+						<div data-spollers class="spollers player__row-2">
 
 
+							<div class="player__person-photo">
+								<button type="button" data-spoller class="section__title-2 person-photo__title _spoller-active">фото галерея</button>
+								<div class="person-photo__body">
 
+								</div>
+							</div>
+						</div>
+						<!-- ======================= PLAYER PUBLICATIONS ======================== -->
+						<div data-spollers class="spollers player__row-5">
+							<div class="player__person-publications">
+								<button type="button" data-spoller class="section__title-2 person-rating__title _spoller-active">публикации</button>
+								<div class="person-publications__body">
+									<div class="person-publications__box">
 
-									<div class="container">
+										<div class="person-publications__item-1">
+											<div class="filtered-div" id="article" data-article="article">
+												<article data-pid="3" class="content__card content-card">
 
-										<div class="timeline-season" date-is='2021/2022'>
+													<div class="content-card__wrapper">
+														<div class="content-card__header header-card">
+															<div class="header-card__top">
+																<div class="header-card__content-type">Статьи</div>
+																<a href="" class="header-card__share _icon-share-icon"></a>
+															</div>
 
-											<div class="timeline-item">
-												<div class="person-honor-1__bage">
-													<div class="person-honor-1__label">
-														<div class="person-honor-1__icon-select _icon-trophy_02"></div>
-														<div class="person-honor-1__info">
-															<div class="person-honor-1__nomination">символическая пятерка</div>
-															<div class="person-honor-1__divider"></div>
-															<div class="person-honor-1__tournament">
-																<a href="#" class="person-honor-1__tournament-link">
-																	<h4 class="person-honor-1__tournament-name">первенство дюбл</h4>
-																	<div class="person-honor-1__tournament-category">
-																		<span>U19 /</span>
-																		<span>2021-2022 /</span>
-																		<span>юноши 2003</span>
-																	</div>
-																</a>
+															<a href="" class="header-card__image _ibg"><picture><source srcset="img/main-slider/16.webp" type="image/webp"><img src="img/main-slider/16.jpg?_v=1646438887492" alt=""></picture></a>
+
+															<div class="header-card__bottom">
+																<div class="header-card__content-logo"><img src="img/Logo/rfb_logo.svg?_v=1646438887492" alt="">
+																</div>
+																<div class="header-card__content-category">рфб</div>
+															</div>
+														</div>
+														<div class="content-card__body body-card">
+
+															<div class="body-card__content">
+																<a href="#" class="body-card__title">Андрей Кириленко: "Игроки Национальной сборной
+																	России привыкают к требованиям нового тренера"</a>
+																<div class="body-card__subtitle"><span></span></div>
+															</div>
+															<div class="body-card__divider"></div>
+
+															<div class="body-card__tags card-tags">
+																<ul class="card-tags__list">
+																	<li class="card-tags__item"><a href="#">Андрей Кириленко</a></li>
+																	<li class="card-tags__item"><a href="#">рфб</a></li>
+																	<li class="card-tags__item"><a href="#">лучшие молодые игроки</a></li>
+																	<li class="card-tags__item"><a href="#">сборная россии</a></li>
+																	<li class="card-tags__item"><a href="#">зоран лукич</a></li>
+																</ul>
 															</div>
 														</div>
 													</div>
-												</div>
-											</div>
-											<div class="timeline-item">
-												<div class="person-honor-1__bage">
-													<div class="person-honor-1__label">
-														<div class="person-honor-1__icon-select _icon-trophy_11"></div>
-														<div class="person-honor-1__info">
-															<div class="person-honor-1__nomination">топ-3 по подборам</div>
-															<div class="person-honor-1__divider"></div>
-															<div class="person-honor-1__tournament">
-																<a href="#" class="person-honor-1__tournament-link">
-																	<h4 class="person-honor-1__tournament-name">первенство россии</h4>
-																	<div class="person-honor-1__tournament-category">
-																		<span>U18 /</span>
-																		<span>2021-2022 /</span>
-																		<span>юноши 2005</span>
-																	</div>
-																</a>
-															</div>
+													<div class="content-card__footer footer-card">
+														<div class="footer-card__list">
+															<li class="footer-card__item"><a href="" class="footer-card__link _icon-calendar-icon"><span>12
+																		февраля
+																		2022</span></a>
+															</li>
+															<li class="footer-card__item"><a href="" class="footer-card__link _icon-view-icon"><span>1245</span></a>
+															</li>
+															<li class="footer-card__item"><a href="" class="footer-card__link _icon-chat-icon-1"><span>249</span></a>
+															</li>
+															<li class="footer-card__item"><a href="" class="footer-card__link _icon-like-icon"><span>814</span></a>
+															</li>
 														</div>
 													</div>
-												</div>
-											</div>
-											<div class="timeline-item">
-												<div class="person-honor-1__bage">
-													<div class="person-honor-1__label">
-														<div class="person-honor-1__icon-select _icon-medal_03"></div>
-														<div class="person-honor-1__info">
-															<div class="person-honor-1__nomination">бронзовый призер</div>
-															<div class="person-honor-1__divider"></div>
-															<div class="person-honor-1__tournament">
-																<a href="#" class="person-honor-1__tournament-link">
-																	<h4 class="person-honor-1__tournament-name">молодежная лига втб</h4>
-																	<div class="person-honor-1__tournament-category">
-																		<span>U21 /</span>
-																		<span>2021-2022</span>
-																		<span></span>
-																	</div>
-																</a>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
 
+												</article>
+											</div>
 										</div>
+										<div class="person-publications__item-2">
+											<div class="filtered-div" id="article" data-article="article">
+												<article data-pid="3" class="content__card content-card">
 
-										<div class="timeline-season" date-is='2020/2021'>
+													<div class="content-card__wrapper">
+														<div class="content-card__header header-card">
+															<div class="header-card__top">
+																<div class="header-card__content-type">Статьи</div>
+																<a href="" class="header-card__share _icon-share-icon"></a>
+															</div>
 
-											<div class="timeline-item">
-												<div class="person-honor-1__bage">
-													<div class="person-honor-1__label">
-														<div class="person-honor-1__icon-select _icon-trophy_12"></div>
-														<div class="person-honor-1__info">
-															<div class="person-honor-1__nomination">лидер по передачам</div>
-															<div class="person-honor-1__divider"></div>
-															<div class="person-honor-1__tournament">
-																<a href="#" class="person-honor-1__tournament-link">
-																	<h4 class="person-honor-1__tournament-name">первенство дюбл</h4>
-																	<div class="person-honor-1__tournament-category">
-																		<span>U19 /</span>
-																		<span>2020-2021 /</span>
-																		<span>юноши 2003</span>
-																	</div>
-																</a>
+															<a href="" class="header-card__image _ibg"><picture><source srcset="img/main-slider/18.webp" type="image/webp"><img src="img/main-slider/18.jpg?_v=1646438887492" alt=""></picture></a>
+
+															<div class="header-card__bottom">
+																<div class="header-card__content-logo"><img src="img/Logo/rfb_logo.svg?_v=1646438887492" alt="">
+																</div>
+																<div class="header-card__content-category">рфб</div>
+															</div>
+														</div>
+														<div class="content-card__body body-card">
+
+															<div class="body-card__content">
+																<a href="#" class="body-card__title">Андрей Кириленко: "Игроки Национальной сборной
+																	России привыкают к требованиям нового тренера"</a>
+																<div class="body-card__subtitle"><span></span></div>
+															</div>
+															<div class="body-card__divider"></div>
+
+															<div class="body-card__tags card-tags">
+																<ul class="card-tags__list">
+																	<li class="card-tags__item"><a href="#">Андрей Кириленко</a></li>
+																	<li class="card-tags__item"><a href="#">рфб</a></li>
+																	<li class="card-tags__item"><a href="#">лучшие молодые игроки</a></li>
+																	<li class="card-tags__item"><a href="#">сборная россии</a></li>
+																	<li class="card-tags__item"><a href="#">зоран лукич</a></li>
+																</ul>
 															</div>
 														</div>
 													</div>
-												</div>
-											</div>
-											<div class="timeline-item">
-												<div class="person-honor-1__bage">
-													<div class="person-honor-1__label">
-														<div class="person-honor-1__icon-select _icon-medal_01"></div>
-														<div class="person-honor-1__info">
-															<div class="person-honor-1__nomination">чемпион</div>
-															<div class="person-honor-1__divider"></div>
-															<div class="person-honor-1__tournament">
-																<a href="#" class="person-honor-1__tournament-link">
-																	<h4 class="person-honor-1__tournament-name">молодежная лига втб</h4>
-																	<div class="person-honor-1__tournament-category">
-																		<span>U21 /</span>
-																		<span>2020-2021</span>
-																		<span></span>
-																	</div>
-																</a>
-															</div>
+													<div class="content-card__footer footer-card">
+														<div class="footer-card__list">
+															<li class="footer-card__item"><a href="" class="footer-card__link _icon-calendar-icon"><span>12
+																		февраля
+																		2022</span></a>
+															</li>
+															<li class="footer-card__item"><a href="" class="footer-card__link _icon-view-icon"><span>1245</span></a>
+															</li>
+															<li class="footer-card__item"><a href="" class="footer-card__link _icon-chat-icon-1"><span>249</span></a>
+															</li>
+															<li class="footer-card__item"><a href="" class="footer-card__link _icon-like-icon"><span>814</span></a>
+															</li>
 														</div>
 													</div>
-												</div>
-											</div>
 
+												</article>
+											</div>
 										</div>
+										<div class="person-publications__item-3">
+											<div class="filtered-div" id="article" data-article="article">
+												<article data-pid="3" class="content__card content-card">
 
-										<div class="timeline-season" date-is='2019/2020'>
+													<div class="content-card__wrapper">
+														<div class="content-card__header header-card">
+															<div class="header-card__top">
+																<div class="header-card__content-type">Статьи</div>
+																<a href="" class="header-card__share _icon-share-icon"></a>
+															</div>
 
-											<div class="timeline-item">
-												<div class="person-honor-1__bage">
-													<div class="person-honor-1__label">
-														<div class="person-honor-1__icon-select _icon-trophy_18"></div>
-														<div class="person-honor-1__info">
-															<div class="person-honor-1__nomination">лидер по перехватам</div>
-															<div class="person-honor-1__divider"></div>
-															<div class="person-honor-1__tournament">
-																<a href="#" class="person-honor-1__tournament-link">
-																	<h4 class="person-honor-1__tournament-name">первенство россии</h4>
-																	<div class="person-honor-1__tournament-category">
-																		<span>U17 /</span>
-																		<span>2020-2021 /</span>
-																		<span>юноши 2003</span>
-																	</div>
-																</a>
+															<a href="" class="header-card__image _ibg"><picture><source srcset="img/main-slider/29.webp" type="image/webp"><img src="img/main-slider/29.jpg?_v=1646438887492" alt=""></picture></a>
+
+															<div class="header-card__bottom">
+																<div class="header-card__content-logo"><img src="img/Logo/rfb_logo.svg?_v=1646438887492" alt="">
+																</div>
+																<div class="header-card__content-category">рфб</div>
+															</div>
+														</div>
+														<div class="content-card__body body-card">
+
+															<div class="body-card__content">
+																<a href="#" class="body-card__title">Андрей Кириленко: "Игроки Национальной сборной
+																	России привыкают к требованиям нового тренера"</a>
+																<div class="body-card__subtitle"><span></span></div>
+															</div>
+															<div class="body-card__divider"></div>
+
+															<div class="body-card__tags card-tags">
+																<ul class="card-tags__list">
+																	<li class="card-tags__item"><a href="#">Андрей Кириленко</a></li>
+																	<li class="card-tags__item"><a href="#">рфб</a></li>
+																	<li class="card-tags__item"><a href="#">лучшие молодые игроки</a></li>
+																	<li class="card-tags__item"><a href="#">сборная россии</a></li>
+																	<li class="card-tags__item"><a href="#">зоран лукич</a></li>
+																</ul>
 															</div>
 														</div>
 													</div>
-												</div>
-											</div>
-											<div class="timeline-item">
-												<div class="person-honor-1__bage">
-													<div class="person-honor-1__label">
-														<div class="person-honor-1__icon-select _icon-trophy_04"></div>
-														<div class="person-honor-1__info">
-															<div class="person-honor-1__nomination">символическая пятерка</div>
-															<div class="person-honor-1__divider"></div>
-															<div class="person-honor-1__tournament">
-																<a href="#" class="person-honor-1__tournament-link">
-																	<h4 class="person-honor-1__tournament-name">первенство дюбл</h4>
-																	<div class="person-honor-1__tournament-category">
-																		<span>U19 /</span>
-																		<span>2021-2022 /</span>
-																		<span>юноши 2003</span>
-																	</div>
-																</a>
-															</div>
+													<div class="content-card__footer footer-card">
+														<div class="footer-card__list">
+															<li class="footer-card__item"><a href="" class="footer-card__link _icon-calendar-icon"><span>12
+																		февраля
+																		2022</span></a>
+															</li>
+															<li class="footer-card__item"><a href="" class="footer-card__link _icon-view-icon"><span>1245</span></a>
+															</li>
+															<li class="footer-card__item"><a href="" class="footer-card__link _icon-chat-icon-1"><span>249</span></a>
+															</li>
+															<li class="footer-card__item"><a href="" class="footer-card__link _icon-like-icon"><span>814</span></a>
+															</li>
 														</div>
 													</div>
-												</div>
+
+												</article>
 											</div>
-
-
 										</div>
+										<div class="person-publications__item-4">
+											<div class="filtered-div" id="article" data-article="article">
+												<article data-pid="3" class="content__card content-card">
 
+													<div class="content-card__wrapper">
+														<div class="content-card__header header-card">
+															<div class="header-card__top">
+																<div class="header-card__content-type">Статьи</div>
+																<a href="" class="header-card__share _icon-share-icon"></a>
+															</div>
+
+															<a href="" class="header-card__image _ibg"><picture><source srcset="img/main-slider/31.webp" type="image/webp"><img src="img/main-slider/31.jpg?_v=1646438887492" alt=""></picture></a>
+
+															<div class="header-card__bottom">
+																<div class="header-card__content-logo"><img src="img/Logo/rfb_logo.svg?_v=1646438887492" alt="">
+																</div>
+																<div class="header-card__content-category">рфб</div>
+															</div>
+														</div>
+														<div class="content-card__body body-card">
+
+															<div class="body-card__content">
+																<a href="#" class="body-card__title">Андрей Кириленко: "Игроки Национальной сборной
+																	России привыкают к требованиям нового тренера"</a>
+																<div class="body-card__subtitle"><span></span></div>
+															</div>
+															<div class="body-card__divider"></div>
+
+															<div class="body-card__tags card-tags">
+																<ul class="card-tags__list">
+																	<li class="card-tags__item"><a href="#">Андрей Кириленко</a></li>
+																	<li class="card-tags__item"><a href="#">рфб</a></li>
+																	<li class="card-tags__item"><a href="#">лучшие молодые игроки</a></li>
+																	<li class="card-tags__item"><a href="#">сборная россии</a></li>
+																	<li class="card-tags__item"><a href="#">зоран лукич</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="content-card__footer footer-card">
+														<div class="footer-card__list">
+															<li class="footer-card__item"><a href="" class="footer-card__link _icon-calendar-icon"><span>12
+																		февраля
+																		2022</span></a>
+															</li>
+															<li class="footer-card__item"><a href="" class="footer-card__link _icon-view-icon"><span>1245</span></a>
+															</li>
+															<li class="footer-card__item"><a href="" class="footer-card__link _icon-chat-icon-1"><span>249</span></a>
+															</li>
+															<li class="footer-card__item"><a href="" class="footer-card__link _icon-like-icon"><span>814</span></a>
+															</li>
+														</div>
+													</div>
+
+												</article>
+											</div>
+										</div>
+									</div>
+									<div class="person-publications__button">
+										<a href="#" class="selected-button">Все публикации</a>
 									</div>
 								</div>
 							</div>
-							<div class="player__person-career-full">
-								<button type="button" data-spoller class="section__title-2 person-career__title _spoller-active">карьера</button>
-								<div class="person-career-full__body">
-									<div class="container">
-
-										<div class="timeline-season" date-is='2021/2022'>
-
-											<div class="timeline-item">
-												<div class="person-career-1__bage">
-													<div class="person-career-1__label">
-														<div class="person-career-1__logo">
-															<picture><source srcset="img/Logo/logo-cska.webp" type="image/webp"><img src="img/Logo/logo-cska.png?_v=1646438887492" alt=""></picture>
-														</div>
-
-														<div class="person-career-1__info">
-															<a href="#" class="person-career-1__team">ЦСКА</a>
-															<div class="person-career-1__divider"></div>
-															<div class="person-career-1__team-info">
-																<div class="person-career-1__team-locations"><span>москва</span><span>/</span>
-																	<span>россия</span>
-																</div>
-																<div class="person-career-1__team-category">
-																	<span>юноши 2003 /</span>
-																	<span>U19 /</span>
-																	<span>2021-2022</span>
-																</div>
-															</div>
-														</div>
-
-													</div>
-												</div>
-											</div>
-											<div class="timeline-item">
-												<div class="person-career-1__bage">
-													<div class="person-career-1__label">
-														<div class="person-career-1__logo">
-															<picture><source srcset="img/Logo/logo-barca.webp" type="image/webp"><img src="img/Logo/logo-barca.png?_v=1646438887492" alt=""></picture>
-														</div>
-
-														<div class="person-career-1__info">
-															<a href="#" class="person-career-1__team">Барселона</a>
-															<div class="person-career-1__divider"></div>
-															<div class="person-career-1__team-info">
-																<div class="person-career-1__team-locations"><span>Барселона</span><span>/</span>
-																	<span>Испания</span>
-																</div>
-																<div class="person-career-1__team-category">
-																	<span>юноши 2001 /</span>
-																	<span>U21 /</span>
-																	<span>2021-2022</span>
-																</div>
-															</div>
-														</div>
-
-													</div>
-												</div>
-											</div>
-
-
-										</div>
-
-										<div class="timeline-season" date-is='2020/2021'>
-											<div class="timeline-item">
-												<div class="person-career-1__bage">
-													<div class="person-career-1__label">
-														<div class="person-career-1__logo">
-															<picture><source srcset="img/Logo/logo-unics.webp" type="image/webp"><img src="img/Logo/logo-unics.png?_v=1646438887492" alt=""></picture>
-														</div>
-
-														<div class="person-career-1__info">
-															<a href="#" class="person-career-1__team">УНИКС</a>
-															<div class="person-career-1__divider"></div>
-															<div class="person-career-1__team-info">
-																<div class="person-career-1__team-locations"><span>Казань</span><span>/</span>
-																	<span>Россия</span>
-																</div>
-																<div class="person-career-1__team-category">
-																	<span>2020-2021</span>
-																	<span></span>
-																	<span></span>
-																</div>
-															</div>
-														</div>
-
-													</div>
-												</div>
-											</div>
-
-
-										</div>
-
-										<div class="timeline-season" date-is='2019/2020'>
-											<div class="timeline-item">
-												<div class="person-career-1__bage">
-													<div class="person-career-1__label">
-														<div class="person-career-1__logo">
-															<picture><source srcset="img/Logo/logo-khimki.webp" type="image/webp"><img src="img/Logo/logo-khimki.png?_v=1646438887492" alt=""></picture>
-														</div>
-
-														<div class="person-career-1__info">
-															<a href="#" class="person-career-1__team">Химки-Подмосковье</a>
-															<div class="person-career-1__divider"></div>
-															<div class="person-career-1__team-info">
-																<div class="person-career-1__team-locations"><span>Московская область</span><span>/</span>
-																	<span>Россия</span>
-																</div>
-																<div class="person-career-1__team-category">
-																	<span>2019-2020</span>
-																	<span></span>
-																	<span></span>
-																</div>
-															</div>
-														</div>
-
-													</div>
-												</div>
-											</div>
-
-
-
-										</div>
-
-									</div>
-								</div>
-							</div>
-
 						</div>
 
 					</div>
