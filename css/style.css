@@ -3530,7 +3530,8 @@ body.popup-show::after {
 }
 .desktop-menu__list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  white-space: nowrap;
 }
 .desktop-menu__item {
   border-left: 0.0625rem solid transparent;
