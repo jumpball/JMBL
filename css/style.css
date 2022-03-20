@@ -3926,8 +3926,8 @@ body.popup-show::after {
 }
 .tournament-leaders__navigation {
   display: grid;
-  column-gap: 0.1875rem;
-  row-gap: 0.1875rem;
+  column-gap: 0.625rem;
+  row-gap: 0.625rem;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
 }
@@ -3936,9 +3936,10 @@ body.popup-show::after {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-.tournament-leaders__icon {
-  font-size: 2.5rem;
-  color: #86a5d9;
+@media (max-width: 47.99875em) {
+  .tournament-leaders__navigation {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 .tournament-leaders__tabs-title {
   width: 100%;
@@ -3946,24 +3947,31 @@ body.popup-show::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 0.0625rem solid #eee;
+  font-size: 2.5rem;
+  color: #146eb4;
+  background-color: #ffffff;
+  border: 0.0625rem solid #86a5d9;
   border-radius: 0.1875rem;
 }
 @media (any-hover: hover) {
   .tournament-leaders__tabs-title:hover {
-    border: 0.0625rem solid #86a5d9;
+    border: 0.0625rem solid #146eb4;
     box-shadow: 0 10px 6px -6px #86a5d9;
   }
 }
 .tournament-leaders__tabs-title._tab-active {
-  border: 0.0625rem solid #86a5d9;
+  color: #cc0202;
+  border: 0.0625rem solid #cc0202;
   box-shadow: 0 10px 6px -6px #86a5d9;
+}
+.tournament-leaders__tabs-title._tab-active span {
+  color: #cc0202;
 }
 .tournament-leaders__tabs-title span {
   text-transform: uppercase;
   font-size: 1.125rem;
   line-height: 140%;
-  color: #505050;
+  color: #146eb4;
 }
 .tournament-leaders__tabs-content {
   padding: 0px;
