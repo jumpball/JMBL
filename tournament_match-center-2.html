@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>tournament match-center / box score</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220328030632">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<header data-scroll="100" data-scroll-show class="header">
+			<div class="header__wrapper">
+
+				<div class="header__main">
+					<div class="header-top__row">
+						<div class="header-top__container">
+							<div class="header-top__menu">
+								<nav class="header-top__menu-body">
+									<ul class="header-top__menu-list">
+										<li class="header-top__menu-item"><a href="" class="header-top__menu-link _icon-basketball-icon"><span>О
+													нас</span></a>
+										</li>
+										<li class="header-top__menu-item"><a href="" class="header-top__menu-link _icon-home-icon"><span>Сайт
+													в
+													подарок</span></a></li>
+										<li class="header-top__menu-item"><a href="" class="header-top__menu-link _icon-like-icon"><span>Партнеры</span></a></li>
+										<li class="header-top__menu-item"><a href="" class="header-top__menu-link _icon-phone-icon"><span>Контакты</span></a></li>
+									</ul>
+								</nav>
+							</div>
+							<a href="#" data-popup="#select-lang" class="header-top__lang  _icon-web-icon"></a>
+							<a href="#" data-popup="#private-office" class="header-top__user _ibg"><picture><source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.jpg?_v=1648425992743" alt="Avatar"></picture></a>
+							<!-- <button type="button" class="icon-menu"><span></span></button> -->
+						</div>
+					</div>
+					<div class="header-body__row">
+						<div class="header-body__container">
+							<div class="header-body__main">
+								<a href="#" class="header-body__logo"></a>
+								<a href="#" class="header-body__logo-text">
+									<img src="img/Logo/jumpball-blue-gr.svg?_v=1648425992743" alt="">
+								</a>
+							</div>
+							<div class="header-body__search">
+
+								<div class="search-form">
+									<button type="button" class="search-form__icon-bage _icon-search-icon"></button>
+									<form action="#" class="search-form__item">
+										<button type="submit" class="search-form__btn _icon-search-icon"></button>
+										<input autocomplete="off" type="text" name="form[]" placeholder="Поиск" class="search-form__input">
+									</form>
+
+
+								</div>
+							</div>
+							<div class="header-body__actions">
+								<a href="" class="header-body__item _icon-vk-vk-icon"></a>
+								<!-- <a href="" class="header-body__item _icon-facebook-icon"></a>
+						<a href="" class="header-body__item _icon-instagram-icon"></a> -->
+								<a href="" class="header-body__item _icon-telegram-icon"></a>
+								<a href="" class="header-body__item _icon-youtube-icon"></a>
+							</div>
+							<button type="button" class="header-body__icon-menu icon-menu"><span></span></button>
+						</div>
+					</div>
+					<div class="header-navigation__row">
+						<div class="header-navigation__container">
+
+							<div class="header-navigation__menu">
+								<nav class="header-navigation__menu-body">
+									<ul data-spollers="769,max" class="header-navigation__menu-list">
+										<li class="header-navigation__menu-item"><a href="" class="header-navigation__menu-link">Главная</a>
+										</li>
+										<li class="header-navigation__menu-item">
+											<a href="" class="header-navigation__menu-link">Публикации</a>
+											<button data-spoller type="button" class="header-navigation__menu-arrow _icon-arrow-square-down-icon"></button>
+											<ul class="header-navigation__menu-sub-list">
+												<li class="header-navigation__menu-sub-item"><a href="" class="header-navigation__menu-sub-link">Хроника
+														публикаций</a>
+												</li>
+												<li class="header-navigation__menu-sub-item"><a href="" class="header-navigation__menu-sub-link">Новости</a>
+												</li>
+												<li class="header-navigation__menu-sub-item"><a href="" class="header-navigation__menu-sub-link">Видео</a>
+												</li>
+												<li class="header-navigation__menu-sub-item"><a href="" class="header-navigation__menu-sub-link">События</a>
+												</li>
+												<li class="header-navigation__menu-sub-item"><a href="" class="header-navigation__menu-sub-link">Интервью</a>
+												</li>
+												<li class="header-navigation__menu-sub-item"><a href="" class="header-navigation__menu-sub-link">Статьи</a>
+												</li>
+											</ul>
+										</li>
+										<li class="header-navigation__menu-item"><a href="" class="header-navigation__menu-link">Турниры</a>
+										</li>
+										<li class="header-navigation__menu-item">
+											<a href="" class="header-navigation__menu-link">Рейтинги</a>
+											<button data-spoller type="button" class="header-navigation__menu-arrow _icon-arrow-square-down-icon"></button>
+											<ul class="header-navigation__menu-sub-list">
+												<li class="header-navigation__menu-sub-item"><a href="" class="header-navigation__menu-sub-link">Юниоры
+														Россия</a></li>
+												<li class="header-navigation__menu-sub-item"><a href="" class="header-navigation__menu-sub-link">Юниоры
+														Европа</a></li>
+												<li class="header-navigation__menu-sub-item"><a href="" class="header-navigation__menu-sub-link">АСБ Студенты
+														Россия</a>
+												</li>
+												<li class="header-navigation__menu-sub-item"><a href="" class="header-navigation__menu-sub-link">МЛБЛ
+														Любители
+														Россия</a>
+												</li>
+												<li class="header-navigation__menu-sub-item"><a href="" class="header-navigation__menu-sub-link">Суперлига
+														Россия</a>
+												</li>
+												<li class="header-navigation__menu-sub-item"><a href="" class="header-navigation__menu-sub-link">Единая Лига
+														ВТБ</a>
+												</li>
+												<li class="header-navigation__menu-sub-item"><a href="" class="header-navigation__menu-sub-link">Евролига</a>
+												</li>
+												<li class="header-navigation__menu-sub-item"><a href="" class="header-navigation__menu-sub-link">НБА</a></li>
+												<li class="header-navigation__menu-sub-item"><a href="" class="header-navigation__menu-sub-link">NCAA
+														Студенты
+														США</a>
+												</li>
+											</ul>
+										</li>
+										<li class="header-navigation__menu-item"><a href="" class="header-navigation__menu-link">Карта</a>
+										</li>
+										<li class="header-navigation__menu-item"><a href="" class="header-navigation__menu-link">Сообщество</a>
+										</li>
+										<li class="header-navigation__menu-item"><a href="" class="header-navigation__menu-link">Видео</a>
+										</li>
+										<li class="header-navigation__menu-item"><a href="" class="header-navigation__menu-link">Календарь</a>
+										</li>
+
+									</ul>
+								</nav>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+
+
+		</header>
+		<div class="page">
+			<!-- ====================== PAGE-TOURNAMENT WRAPPER ====================== -->
+			<div class="page__tournament-wrapper">
+				<!-- ================== BREADCRUMS ============== -->
+				<div class="page__breadcrumb page__container">
+					<nav class="breadcrumb__box" aria-label="breadcrumb">
+						<ol class="breadcrumb__list">
+							<li class="breadcrumb__item"><a href="#">Главная</a></li>
+							<li class="breadcrumb__item"><a href="#">Турниры</a></li>
+							<li class="breadcrumb__item"><a href="#">Суперлига-1</a></li>
+							<li class="breadcrumb__item"><a href="#">Матч-центр</a></li>
+							<li class="breadcrumb__item active" aria-current="page">Протокол игры</li>
+						</ol>
+					</nav>
+				</div>
+				<!-- ============== TOURNAMENT - TITLE ============= -->
+				<!-- <div class="page__container">
+					<h1 class="section__title tournament__title">Суперлига-1</h1>
+				</div> -->
+
+				<!-- ============== SECTION HEADER ============= -->
+				<div class="page__head-flor">
+					<div class="page__tournament-header page__container">
+						<!-- ====================== TOURNAMENT - HEADER & NAVIGATION ====================== -->
+						<section class="tournament__header-box">
+							<div class="tournament__stage-menu">
+								<!-- ============== PUBLICATIONS SEARCH & NAV =============== -->
+								<div data-spollers="991.98, max" class="spollers">
+									<div class="tournament-stage__search">
+										<button type="button" data-spoller class="section__title-2 tournament-stage__search-title">выбрать этап</button>
+										<div class="tournament-stage__search-body">
+											<div class="tournament-stage__search-group">
+												<div class="tournament-stage__search-block">
+													<div class="tournament-stage__search-block-item">
+														<form action="#" class="tournament-stage__select-form">
+															<div class="tournament-stage__select-line">
+																<label class="select__label" for="tournament-stage__select-season">выбрать сезон</label>
+																<select data-scroll id="tournament-stage__select-season" name="form[]" class="tournament-stage__select-list">
+																	<option class="tournament-stage__select-item" value="1" selected="selected">2021/2022
+																	</option>
+																	<option class="tournament-stage__select-item" value="2">2020/2021
+																	</option>
+
+																	<option class="tournament-stage__select-item" value="3">2019/2020
+																	</option>
+																	<option class="tournament-stage__select-item" value="4">2018/2019
+																	</option>
+																</select>
+															</div>
+															<div class="tournament-stage__select-line">
+																<label class="select__label" for="tournament-stage__select-stage">выбрать этап</label>
+																<select data-scroll id="tournament-stage__select-stage" name="form[]" class="tournament-stage__select-list">
+																	<option class="tournament-stage__select-item" value="1" selected="selected">все этапы
+																	</option>
+																	<option class="tournament-stage__select-item" value="2">отборочный этап
+																	</option>
+
+																	<option class="tournament-stage__select-item" value="3">полуфинальный этап
+																	</option>
+																	<option class="tournament-stage__select-item" value="4">финальный этап
+																	</option>
+																</select>
+															</div>
+															<div class="tournament-stage__select-line">
+																<label class="select__label" for="tournament-stage__select-tour">выбрать тур</label>
+																<select data-scroll id="tournament-stage__select-tour" name="form[]" class="tournament-stage__select-list">
+																	<option class="tournament-stage__select-item" value="1" selected="selected">все туры
+																	</option>
+																	<option class="tournament-stage__select-item" value="2">1 тур
+																	</option>
+
+																	<option class="tournament-stage__select-item" value="3">2 тур
+																	</option>
+																	<option class="tournament-stage__select-item" value="4">3 тур
+																	</option>
+																</select>
+															</div>
+															<div class="tournament-stage__select-line">
+																<label class="select__label" for="tournament-stage__select-group">выбрать группу</label>
+																<select data-scroll id="tournament-stage__select-group" name="form[]" class="tournament-stage__select-list">
+																	<option class="tournament-stage__select-item" value="1" selected="selected">все группы
+																	</option>
+																	<option class="tournament-stage__select-item" value="2">группа А
+																	</option>
+
+																	<option class="tournament-stage__select-item" value="3">группа Б
+																	</option>
+																	<option class="tournament-stage__select-item" value="4">группа В
+																	</option>
+																	<option class="tournament-stage__select-item" value="4">группа Г
+																	</option>
+																</select>
+															</div>
+														</form>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="header-profile header-profile__tournament">
+								<div class="header-profile__row">
+									<div class="header-profile__content">
+										<div class="header-profile__image">
+											<a href="#" class="header-profile__tournament-logo"><img src="img/Logo/superliga_logo.svg?_v=1648425992743" alt="tournament-logo"></a>
+										</div>
+
+										<div class="header-profile__info">
+
+											<div class="header-profile__desc">
+												<div class="header-profile__title">
+													<a href="#">
+														<h2>суперлига-1</h2>
+													</a>
+													<span></span>
+												</div>
+												<div class="header-profile__line">
+												</div>
+												<ul class="header-profile__list">
+													<li>чемпионат россии</li>
+													<li>мужчины</li>
+													<li>2021/2022</li>
+													<!-- <li><span>u16</span><span>/</span><span>юноши 2005</span></li> -->
+												</ul>
+											</div>
+
+											<div class="header-profile__social-icons">
+												<div class="header-profile__items">
+													<a href="" class="header-profile__item _icon-VK_circle"></a>
+													<!-- <a href="" class="header-profile__item _icon-facebook-icon"></a>
+							<a href="" class="header-profile__item _icon-instagram-icon"></a> -->
+													<a href="" class="header-profile__item _icon-Telegram_circle"></a>
+													<a href="" class="header-profile__item _icon-Youtube_circle"></a>
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="header-profile__bg">
+										<picture><source srcset="img/profile/header-page-player-bg.webp" type="image/webp"><img src="img/profile/header-page-player-bg.png?_v=1648425992743" alt=""></picture>
+									</div>
+									<div class="header-profile__bg-mini">
+										<picture><source srcset="img/profile/header-page-player-bg-mini.webp" type="image/webp"><img src="img/profile/header-page-player-bg-mini.png?_v=1648425992743" alt=""></picture>
+									</div>
+									<!-- <div class="header-profile__bg-smal">
+			<picture><source srcset="img/profile/header-page-player-bg-smal.webp" type="image/webp"><img src="img/profile/header-page-player-bg-smal.png?_v=1648425992743" alt=""></picture>
+		</div> -->
+									<div class="header-profile__bg-silhouette">
+										<img src="img/Logo/player_silhouette.svg?_v=1648425992743" alt="">
+									</div>
+								</div>
+							</div>
+							<!--=============== TOURNAMENT MENU-3 =============-->
+							<div class="tournament__profile-menu">
+								<nav class="desktop-menu">
+									<ul class="desktop-menu__list">
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Главная</a></li>
+										<li class="desktop-menu__item desktop-menu__item-active"><a class="desktop-menu__link" href="#">Матч-центр</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Таблица</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Статистика</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Календарь</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Команды</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Игроки</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Рекорды</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">История</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Медиа</a></li>
+									</ul>
+								</nav>
+								<div class="mobile-menu">
+									<input type="checkbox" id="m1" class="hidden-menu-ticker">
+									<label class="btn-menu" for="m1">
+										<span class="first"></span>
+										<span class="second"></span>
+										<span class="third"></span>
+									</label>
+									<ul class="hidden-menu">
+										<li class="hidden-menu__item"><a href="" class="hidden-menu__list">Главная</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Матч-центр</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Таблица</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Статистика</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Календарь</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Команды</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Игроки</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Рекорды</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">История</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Медиа</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+
+				<!-- ============== PAGE FLORE-1 / SECTION-1 ============= -->
+				<div class="page__flor-1">
+					<div class="page__section-1 page__container">
+						<!-- ======== TOURNAMENT - MATH-CENTER / GAME SELECT ========== -->
+						<section class="tournament__game-select">
+							<h2 class="section__title-center-big">Матч-центр</h2>
+							<div class="tournament__date-select">
+								<div class="tournament-date__slider slider-date">
+									<div class="tournament-date__arrow-1">
+										<button type="button" class="tournament-date__arrow-l _icon-caret-left"></button>
+									</div>
+									<div class="tournament-date__body _swiper">
+										<div class="tournament-date__slide">
+											<div class="tournament__date-row">
+												<div class="publication-date__day tournament__date-day">14</div>
+												<div class="publication-date__date tournament__date">
+													<div class="publication-date__month tournament__date-month">февраля</div>
+													<div class="publication-date__week tournament__date-week">понедельник</div>
+													<!-- <div class="publication-date__year tournament__date-year">2022</div> -->
+												</div>
+											</div>
+										</div>
+										<div class="tournament-date__slide">
+											<div class="tournament__date-row">
+												<div class="publication-date__day tournament__date-day">15</div>
+												<div class="publication-date__date tournament__date">
+													<div class="publication-date__month tournament__date-month">февраля</div>
+													<div class="publication-date__week tournament__date-week">вторник</div>
+													<!-- <div class="publication-date__year tournament__date-year">2022</div> -->
+												</div>
+											</div>
+										</div>
+										<div class="tournament-date__slide">
+											<div class="tournament__date-row">
+												<div class="publication-date__day tournament__date-day">16</div>
+												<div class="publication-date__date tournament__date">
+													<div class="publication-date__month tournament__date-month">февраля</div>
+													<div class="publication-date__week tournament__date-week">среда</div>
+													<!-- <div class="publication-date__year tournament__date-year">2022</div> -->
+												</div>
+											</div>
+										</div>
+										<div class="tournament-date__slide">
+											<div class="tournament__date-row">
+												<div class="publication-date__day tournament__date-day">17</div>
+												<div class="publication-date__date tournament__date">
+													<div class="publication-date__month tournament__date-month">февраля</div>
+													<div class="publication-date__week tournament__date-week">четверг</div>
+													<!-- <div class="publication-date__year tournament__date-year">2022</div> -->
+												</div>
+											</div>
+										</div>
+										<div class="tournament-date__slide">
+											<div class="tournament__date-row">
+												<div class="publication-date__day tournament__date-day">18</div>
+												<div class="publication-date__date tournament__date">
+													<div class="publication-date__month tournament__date-month">февраля</div>
+													<div class="publication-date__week tournament__date-week">пятница</div>
+													<!-- <div class="publication-date__year tournament__date-year">2022</div> -->
+												</div>
+											</div>
+										</div>
+										<div class="tournament-date__slide">
+											<div class="tournament__date-row">
+												<div class="publication-date__day tournament__date-day">19</div>
+												<div class="publication-date__date tournament__date">
+													<div class="publication-date__month tournament__date-month">февраля</div>
+													<div class="publication-date__week tournament__date-week">суббота</div>
+													<!-- <div class="publication-date__year tournament__date-year">2022</div> -->
+												</div>
+											</div>
+										</div>
+										<div class="tournament-date__slide">
+											<div class="tournament__date-row">
+												<div class="publication-date__day tournament__date-day">20</div>
+												<div class="publication-date__date tournament__date">
+													<div class="publication-date__month tournament__date-month">февраля</div>
+													<div class="publication-date__week tournament__date-week">воскресенье</div>
+													<!-- <div class="publication-date__year tournament__date-year">2022</div> -->
+												</div>
+											</div>
+										</div>
+										<div class="tournament-date__slide">
+											<div class="tournament__date-row">
+												<div class="publication-date__day tournament__date-day">21</div>
+												<div class="publication-date__date tournament__date">
+													<div class="publication-date__month tournament__date-month">февраля</div>
+													<div class="publication-date__week tournament__date-week">понедельник</div>
+													<!-- <div class="publication-date__year tournament__date-year">2022</div> -->
+												</div>
+											</div>
+										</div>
+										<div class="tournament-date__slide">
+											<div class="tournament__date-row">
+												<div class="publication-date__day tournament__date-day">22</div>
+												<div class="publication-date__date tournament__date">
+													<div class="publication-date__month tournament__date-month">февраля</div>
+													<div class="publication-date__week tournament__date-week">вторник</div>
+													<!-- <div class="publication-date__year tournament__date-year">2022</div> -->
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tournament-date__arrow-2">
+										<button type="button" class="tournament-date__arrow-r _icon-caret-right"></button>
+									</div>
+									<!-- <div class="tournament-date__dotts"></div> -->
+									<!-- <div class="tournament-date__arrows">
+
+
+
+	</div> -->
+								</div>
+							</div>
+							<!-- <h3 class="section__title-2 tournament__title-box">выбор игры</h3> -->
+							<div class="tournament__game-items">
+								<!-- <div class="tournament-games__search-block">
+	<form action="#" class="tournament-games__select-form">
+		<div class="tournament-stage__select-line">
+			<label class="select__label" for="tournament-stage__select-stage">тип игры</label>
+			<select data-scroll id="tournament-stage__select-stage" name="form[]" class="tournament-stage__select-list">
+				<option class="tournament-stage__select-item" value="1" selected="selected">все игры
+				</option>
+				<option class="tournament-stage__select-item" value="2">онлайн игры
+				</option>
+
+				<option class="tournament-stage__select-item" value="3">предстоящие игры
+				</option>
+				<option class="tournament-stage__select-item" value="4">завершенные игры
+				</option>
+			</select>
+		</div>
+		<div class="tournament-stage__select-line">
+			<label class="select__label" for="tournament-games__select-date">выбрать дату</label>
+			<input autocomplete="off" type="date" id="tournament-games__select-date" name="form[]" data-error="Ошибка"
+				placeholder="" class="input">
+		</div>
+	</form>
+</div> -->
+								<div class="game__slider tournament-games__slider">
+									<!-- <div class="slider-arrows game__arrows">
+		<button type="button" class="slider-nav slider-arrow_next _icon-arrow-down-icon"></button>
+		<button type="button" class="slider-nav slider-arrow_prev _icon-arrow-down-icon"></button>
+	</div> -->
+									<div class="tournament-games__body _swiper">
+
+										<div class="tournament-games__slide">
+											<div class="game-card-1 game-card-1_game-over">
+												<a href="#" class="game-card-1__link">
+													<div class="game-card-1__header">
+														<div class="game-card-1__date">
+															<span>14.02.2022</span> <span>14:00 мск</span>
+														</div>
+														<div class="game-card-1__status">игра завершена</div>
+													</div>
+													<div class="game-card-1__body">
+														<div class="game-card-1__team">
+															<div class="game-card-1__team-logo">
+																<picture><source srcset="img/Logo/logo-cska.webp" type="image/webp"><img src="img/Logo/logo-cska.png?_v=1648425992743" alt=""></picture>
+															</div>
+															<div class="game-card-1__team-box">
+																<div class="game-card-1__team-name">сшор динамо юность москвы</div>
+																<div class="game-card-1__team-city">москва, россия</div>
+															</div>
+															<div class="game-card-1__team-score game-card-1__team-score_1">102</div>
+														</div>
+														<div class="game-card-1__divider"></div>
+														<div class="game-card-1__team">
+															<div class="game-card-1__team-logo">
+																<picture><source srcset="img/Logo/logo-unics.webp" type="image/webp"><img src="img/Logo/logo-unics.png?_v=1648425992743" alt=""></picture>
+															</div>
+															<div class="game-card-1__team-box">
+																<div class="game-card-1__team-name">сшор №1 адмиралтейская</div>
+																<div class="game-card-1__team-city">санкт-петербург, россия</div>
+															</div>
+															<div class="game-card-1__team-score game-card-1__team-score_2">94</div>
+														</div>
+													</div>
+													<div class="game-card-1__footer">
+														<div class="game-card-1__tour">
+															<span>молодежная лига втб</span><span>U21</span>
+														</div>
+														<div class="game-card-1__year">2021/2022</div>
+													</div>
+												</a>
+
+
+											</div>
+										</div>
+										<div class="tournament-games__slide">
+											<div class="game-card-1 game-card-1_online">
+												<a href="#" class="game-card-1__link">
+													<div class="game-card-1__header">
+														<div class="game-card-1__date">
+															<span>14.02.2022</span> <span>2 четверть</span> <span>8:25</span>
+														</div>
+														<div class="game-card-1__status">онлайн</div>
+													</div>
+													<div class="game-card-1__body">
+														<div class="game-card-1__team">
+															<div class="game-card-1__team-logo">
+																<picture><source srcset="img/Logo/logo-cska.webp" type="image/webp"><img src="img/Logo/logo-cska.png?_v=1648425992743" alt=""></picture>
+															</div>
+															<div class="game-card-1__team-box">
+																<div class="game-card-1__team-name">сшор динамо юность москвы</div>
+																<div class="game-card-1__team-city">москва, россия</div>
+															</div>
+															<div class="game-card-1__team-score game-card-1__team-score_1">32</div>
+														</div>
+														<div class="game-card-1__divider"></div>
+														<div class="game-card-1__team">
+															<div class="game-card-1__team-logo">
+																<picture><source srcset="img/Logo/logo-unics.webp" type="image/webp"><img src="img/Logo/logo-unics.png?_v=1648425992743" alt=""></picture>
+															</div>
+															<div class="game-card-1__team-box">
+																<div class="game-card-1__team-name">сшор №1 адмиралтейская</div>
+																<div class="game-card-1__team-city">санкт-петербург, россия</div>
+															</div>
+															<div class="game-card-1__team-score game-card-1__team-score_2">28</div>
+														</div>
+													</div>
+													<div class="game-card-1__footer">
+														<div class="game-card-1__tour">
+															<span>молодежная лига втб</span><span>U21</span>
+														</div>
+														<div class="game-card-1__year">2021/2022</div>
+													</div>
+												</a>
+
+											</div>
+										</div>
+										<div class="tournament-games__slide">
+											<div class="game-card-1">
+												<a href="#" class="game-card-1__link">
+													<div class="game-card-1__header">
+														<div class="game-card-1__date">
+															<span>14.02.2022</span> <span>понедельник</span> <span>14:00 мск</span>
+														</div>
+														<div class="game-card-1__status"></div>
+													</div>
+													<div class="game-card-1__body">
+														<div class="game-card-1__team">
+															<div class="game-card-1__team-logo">
+																<picture><source srcset="img/Logo/logo-cska.webp" type="image/webp"><img src="img/Logo/logo-cska.png?_v=1648425992743" alt=""></picture>
+															</div>
+															<div class="game-card-1__team-box">
+																<div class="game-card-1__team-name">сшор динамо юность москвы</div>
+																<div class="game-card-1__team-city">москва, россия</div>
+															</div>
+															<div class="game-card-1__team-score game-card-1__team-score_1">0</div>
+														</div>
+														<div class="game-card-1__divider"></div>
+														<div class="game-card-1__team">
+															<div class="game-card-1__team-logo">
+																<picture><source srcset="img/Logo/logo-unics.webp" type="image/webp"><img src="img/Logo/logo-unics.png?_v=1648425992743" alt=""></picture>
+															</div>
+															<div class="game-card-1__team-box">
+																<div class="game-card-1__team-name">сшор №1 адмиралтейская</div>
+																<div class="game-card-1__team-city">санкт-петербург, россия</div>
+															</div>
+															<div class="game-card-1__team-score game-card-1__team-score_2">0</div>
+														</div>
+													</div>
+													<div class="game-card-1__footer">
+														<div class="game-card-1__tour">
+															<span>молодежная лига втб</span><span>U21</span>
+														</div>
+														<div class="game-card-1__year">2021/2022</div>
+													</div>
+												</a>
+
+											</div>
+										</div>
+										<div class="tournament-games__slide">
+											<div class="game-card-1">
+												<a href="#" class="game-card-1__link">
+													<div class="game-card-1__header">
+														<div class="game-card-1__date">
+															<span>14.02.2022</span> <span>понедельник</span> <span>14:00 мск</span>
+														</div>
+														<div class="game-card-1__status"></div>
+													</div>
+													<div class="game-card-1__body">
+														<div class="game-card-1__team">
+															<div class="game-card-1__team-logo">
+																<picture><source srcset="img/Logo/logo-cska.webp" type="image/webp"><img src="img/Logo/logo-cska.png?_v=1648425992743" alt=""></picture>
+															</div>
+															<div class="game-card-1__team-box">
+																<div class="game-card-1__team-name">сшор динамо юность москвы</div>
+																<div class="game-card-1__team-city">москва, россия</div>
+															</div>
+															<div class="game-card-1__team-score game-card-1__team-score_1">0</div>
+														</div>
+														<div class="game-card-1__divider"></div>
+														<div class="game-card-1__team">
+															<div class="game-card-1__team-logo">
+																<picture><source srcset="img/Logo/logo-unics.webp" type="image/webp"><img src="img/Logo/logo-unics.png?_v=1648425992743" alt=""></picture>
+															</div>
+															<div class="game-card-1__team-box">
+																<div class="game-card-1__team-name">сшор №1 адмиралтейская</div>
+																<div class="game-card-1__team-city">санкт-петербург, россия</div>
+															</div>
+															<div class="game-card-1__team-score game-card-1__team-score_2">0</div>
+														</div>
+													</div>
+													<div class="game-card-1__footer">
+														<div class="game-card-1__tour">
+															<span>молодежная лига втб</span><span>U21</span>
+														</div>
+														<div class="game-card-1__year">2021/2022</div>
+													</div>
+												</a>
+
+											</div>
+										</div>
+									</div>
+									<div class="game__dotts"></div>
+
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+
+				<!-- ============== PAGE FLORE-2 / SECTION-2 ============= -->
+				<div class="page__flor-2">
+					<div class="page__section-2 page__container">
+						<!-- =========== TOURNAMENT - GAME SELECTED HEADER ======== -->
+						<div class="tournament__game-selected-header">
+							<div class="b-tournament-playground-1">
+								<div class="b-tournament-playground-1__header">
+									<div class="b-tournament-playground-1__tournament-logo">
+										<img class="b-tournament-playground-1__image" src="img/Logo/russia_logo.svg?_v=1648425992743" alt="">
+									</div>
+
+									<div class="b-tournament-playground-1__date">
+										<span>14.02.2022</span>
+										<span>14:30</span>
+										<span>первенство россии</span>
+										<span>U18</span>
+										<span>юноши 2005</span>
+
+									</div>
+
+									<div class="b-tournament-playground-1__status">live</div>
+								</div>
+								<div class="b-tournament-playground-1__body">
+									<div class="b-tournament-playground-1__team">
+										<div class="b-team-card-1">
+											<div class="b-team-card-1__img-2-l">
+												<picture><source srcset="img/Logo/logo-cska.webp" type="image/webp"><img class="b-img-height-1" src="img/Logo/logo-cska.png?_v=1648425992743" alt=""></picture>
+											</div>
+											<div class="b-team-card-1__main">
+												<div class="b-team-card-1__team">
+													<div class="b-team-card-1__name">динамо юность москвы</div>
+													<div class="b-team-card-1__city">санкт-петербург, россия</div>
+												</div>
+
+											</div>
+										</div>
+										<div class="b-team-card-1__foul-l">
+											<div class="b-team-card-1__foul-name">фолы</div>
+											<div class="b-team-card-1__foul-states">
+												<span class="b-team-card-1__foul-state b-team-card-1__foul-state_1"></span>
+												<span class="b-team-card-1__foul-state b-team-card-1__foul-state_1"></span>
+												<span class="b-team-card-1__foul-state"></span>
+												<span class="b-team-card-1__foul-state"></span>
+												<span class="b-team-card-1__foul-state"></span>
+											</div>
+										</div>
+									</div>
+									<div class="b-tournament-playground-1__score">
+										<div class="b-tournament-playground-1__game-period">
+											2<span>четверть</span>
+										</div>
+										<div class="b-tournament-playground-1__game-time">06:41</div>
+										<div class="b-tournament-playground-1__game-score">
+											<div class="b-tournament-playground-1__score-team-1">87</div>
+											<div class="b-tournament-playground-1__score-team-2">94</div>
+										</div>
+
+									</div>
+									<div class="b-tournament-playground-1__team">
+										<div class="b-team-card-1 b-team-card-1_right">
+											<div class="b-team-card-1__main">
+												<div class="b-team-card-1__team">
+													<div class="b-team-card-1__name">сшор цска</div>
+													<div class="b-team-card-1__city">москва, россия</div>
+												</div>
+											</div>
+											<div class="b-team-card-1__img-2-r">
+												<picture><source srcset="img/Logo/logo-unics.webp" type="image/webp"><img class="b-img-height-1" src="img/Logo/logo-unics.png?_v=1648425992743" alt=""></picture>
+											</div>
+										</div>
+										<div class="b-team-card-1__foul-r">
+											<div class="b-team-card-1__foul-name-r">фолы</div>
+											<div class="b-team-card-1__foul-states-r">
+												<span class="b-team-card-1__foul-state b-team-card-1__foul-state_2"></span>
+												<span class="b-team-card-1__foul-state b-team-card-1__foul-state_1"></span>
+												<span class="b-team-card-1__foul-state b-team-card-1__foul-state_1"></span>
+												<span class="b-team-card-1__foul-state b-team-card-1__foul-state_1"></span>
+												<span class="b-team-card-1__foul-state b-team-card-1__foul-state_1"></span>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="b-tournament-playground-1__score-quarter">
+									<span>20-16</span>
+									<span>12-10</span>
+									<span>25-14</span>
+									<span>18-20</span>
+								</div>
+
+								<div class="b-tournament-playground-1__footer">
+									<div class="b-tournament-playground-1__place">
+										<span>московская область</span>
+										<span>красная пахра</span>
+										<span>сб “олимпийские надежды”</span>
+										<span>зал-2</span>
+									</div>
+								</div>
+							</div>
+							<div class="game__navigation">
+								<div class="game__image">
+									<img src="img/tournaments/playing-field.svg?_v=1648425992743" alt="">
+								</div>
+								<nav class="game-menu">
+									<ul class="game-menu__list">
+										<li class="game-menu__item game-menu__item-active"><a class="game-menu__link" href="#">обзор игры</a></li>
+										<li class="game-menu__item"><a class="game-menu__link" href="#">протокол</a></li>
+										<li class="game-menu__item"><a class="game-menu__link" href="#">ход игры</a></li>
+										<li class="game-menu__item"><a class="game-menu__link" href="#">сравнение команд</a></li>
+										<li class="game-menu__item"><a class="game-menu__link" href="#">карта бросков</a></li>
+
+									</ul>
+								</nav>
+								<div class="game-mobile-menu">
+									<input type="checkbox" id="m2" class="game-menu-mob-ticker">
+									<label class="btn-menu-mob" for="m2">
+										<span class="first"></span>
+										<span class="second"></span>
+										<span class="third"></span>
+									</label>
+									<ul class="game-mob-menu">
+										<li class="game-mob-menu__item"><a href="" class="game-mob-menu__list">обзор игры</a></li>
+										<li class="game-mob-menu__item"><a href="#" class="game-mob-menu__list">протокол</a></li>
+										<li class="game-mob-menu__item"><a href="#" class="game-mob-menu__list">ход игры</a></li>
+										<li class="game-mob-menu__item"><a href="#" class="game-mob-menu__list">сравнение команд</a></li>
+										<li class="game-mob-menu__item"><a href="#" class="game-mob-menu__list">карта бросков</a></li>
+									</ul>
+								</div>
+								<div data-spollers class="spollers">
+									<div class="spollers__item">
+										<button type="button" data-spoller class="selected-button game-menu__video-button">Видео</button>
+										<div class="spollers__body game-menu__video-body">
+											<div class="tournament__video-player video-player">
+												<div class="video-player__item">
+													<iframe src="https://www.youtube.com/embed/60QLAXp4CgY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- ============== PAGE FLORE-3 / SECTION-3 ============= -->
+				<div class="page__flor-3">
+					<div class="page__section-3 page__container">
+						<!-- =========== TOURNAMENT - GAME BOX SCORE ========== -->
+						<section class="tournament__game-box-score">
+							<h2 class="section__title-center-big">протокол игры</h2>
+							<div class="game-box-score__box">
+								<div data-tabs data-tabs-animate="1000" class="tabs game-box-score__tabs">
+									<nav data-tabs-titles class="tabs__navigation game-box-score__navigation">
+										<button type="button" class="tabs__title game-box-score__tabs-title _tab-active">
+											<picture><source srcset="img/Logo/logo-cska.webp" type="image/webp"><img class="game-box-score__team-image" src="img/Logo/logo-cska.png?_v=1648425992743" alt=""></picture>
+											<span>СШОР Динамо Юность Москвы</span>
+										</button>
+										<button type="button" class="tabs__title game-box-score__tabs-title">
+											<picture><source srcset="img/Logo/logo-unics.webp" type="image/webp"><img class="game-box-score__team-image" src="img/Logo/logo-unics.png?_v=1648425992743" alt=""></picture>
+											<span>СШОР ЦСКА</span>
+										</button>
+									</nav>
+									<div data-tabs-body class="tabs__content game-box-score__tabs-content">
+										<div class="tabs__body game-box-score__tabs-body">
+											<div class="game-box-score__tabs-row">
+												<div class="game-box-score__table__box">
+													<table class="table__body table_sort">
+														<thead>
+															<tr class="first-header">
+																<th rowspan="2" class="table__cell-th top-left">№</th>
+																<th rowspan="2" class="table__cell-th top-left-two">Игроки</th>
+																<th rowspan="2" class="table__cell-th table__head-cell">мин</th>
+																<th rowspan="2" class="table__cell-th table__head-cell">очки</th>
+																<th colspan="4" class="table__cell-th table__head-cell">Броски</th>
+																<th colspan="3" class="table__cell-th table__head-cell">Подбор</th>
+																<th rowspan="2" class="table__cell-th table__head-cell">гп</th>
+																<th rowspan="2" class="table__cell-th table__head-cell">пх</th>
+																<th rowspan="2" class="table__cell-th table__head-cell">бш</th>
+																<th rowspan="2" class="table__cell-th table__head-cell">пт</th>
+																<th rowspan="2" class="table__cell-th table__head-cell">фс</th>
+																<th rowspan="2" class="table__cell-th table__head-cell">ф</th>
+																<th rowspan="2" class="table__cell-th table__head-cell">+/-</th>
+																<th rowspan="2" class="table__cell-th table__head-cell">кпи</th>
+																<!-- <th class="table__cell-th">E</th>
+									<th class="table__cell-th">E</th>
+									<th class="table__cell-th">E</th>
+									<th class="table__cell-th">E</th>
+									<th class="table__cell-th">E</th> -->
+															</tr>
+															<tr class="second-header">
+																<!-- <th class="table__cell-th top-left">00</th> -->
+																<!-- <th class="table__cell-th top-left-two">A</th> -->
+																<!-- <th class="table__cell-th">B</th> -->
+																<!-- <th class="table__cell-th">C</th> -->
+																<th class="table__cell-th table__head-cell">2-х</th>
+																<th class="table__cell-th table__head-cell">3-х</th>
+																<th class="table__cell-th table__head-cell">всего</th>
+																<th class="table__cell-th table__head-cell">шт</th>
+																<th class="table__cell-th table__head-cell">сщ</th>
+																<th class="table__cell-th table__head-cell">чщ</th>
+																<th class="table__cell-th table__head-cell">вс</th>
+																<!-- <th class="table__cell-th">-</th>
+									<th class="table__cell-th">-</th>
+									<th class="table__cell-th">-</th>
+									<th class="table__cell-th">-</th>
+									<th class="table__cell-th">-</th>
+									<th class="table__cell-th">-</th>
+									<th class="table__cell-th">-</th>
+									<th class="table__cell-th">-</th> -->
+
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<th class="table__cell-th first-column">4</th>
+																<th class="table__cell-th second-column">карданахишвили<span>антон</span></th>
+																<td class="table__cell-td">12:45</td>
+																<td class="table__cell-td">14</td>
+
+																<td class="table__cell-td">3/7</td>
+																<td class="table__cell-td">2/4</td>
+																<td class="table__cell-td">5/11</td>
+																<td class="table__cell-td">6/6</td>
+
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">7</td>
+																<td class="table__cell-td">12</td>
+
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+
+
+															</tr>
+															<tr>
+																<th class="table__cell-th first-column">5</th>
+																<th class="table__cell-th second-column">карданахишвили<span>антон</span></th>
+
+																<td class="table__cell-td">12:45</td>
+																<td class="table__cell-td">14</td>
+
+																<td class="table__cell-td">3/7</td>
+																<td class="table__cell-td">2/4</td>
+																<td class="table__cell-td">5/11</td>
+																<td class="table__cell-td">6/6</td>
+
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">7</td>
+																<td class="table__cell-td">12</td>
+
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+															</tr>
+															<tr>
+																<th class="table__cell-th first-column">6</th>
+																<th class="table__cell-th second-column">карданахишвили<span>антон</span></th>
+
+																<td class="table__cell-td">12:45</td>
+																<td class="table__cell-td">14</td>
+
+																<td class="table__cell-td">3/7</td>
+																<td class="table__cell-td">2/4</td>
+																<td class="table__cell-td">5/11</td>
+																<td class="table__cell-td">6/6</td>
+
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">7</td>
+																<td class="table__cell-td">12</td>
+
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+															</tr>
+															<tr>
+																<th class="table__cell-th first-column">7</th>
+																<th class="table__cell-th second-column">карданахишвили<span>антон</span></th>
+
+																<td class="table__cell-td">12:45</td>
+																<td class="table__cell-td">14</td>
+
+																<td class="table__cell-td">3/7</td>
+																<td class="table__cell-td">2/4</td>
+																<td class="table__cell-td">5/11</td>
+																<td class="table__cell-td">6/6</td>
+
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">7</td>
+																<td class="table__cell-td">12</td>
+
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+															</tr>
+															<tr>
+																<th class="table__cell-th first-column">10</th>
+																<th class="table__cell-th second-column">карданахишвили<span>антон</span></th>
+
+																<td class="table__cell-td">12:45</td>
+																<td class="table__cell-td">14</td>
+
+																<td class="table__cell-td">3/7</td>
+																<td class="table__cell-td">2/4</td>
+																<td class="table__cell-td">5/11</td>
+																<td class="table__cell-td">6/6</td>
+
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">7</td>
+																<td class="table__cell-td">12</td>
+
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+															</tr>
+															<tr>
+																<th class="table__cell-th first-column">14</th>
+																<th class="table__cell-th second-column">семенов<span>антон</span></th>
+
+																<td class="table__cell-td">12:45</td>
+																<td class="table__cell-td">14</td>
+
+																<td class="table__cell-td">3/7</td>
+																<td class="table__cell-td">2/4</td>
+																<td class="table__cell-td">5/11</td>
+																<td class="table__cell-td">6/6</td>
+
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">7</td>
+																<td class="table__cell-td">12</td>
+
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+															</tr>
+															<tr>
+																<th class="table__cell-th first-column">15</th>
+																<th class="table__cell-th second-column">алексеев<span>антон</span></th>
+
+																<td class="table__cell-td">12:45</td>
+																<td class="table__cell-td">14</td>
+
+																<td class="table__cell-td">3/7</td>
+																<td class="table__cell-td">2/4</td>
+																<td class="table__cell-td">5/11</td>
+																<td class="table__cell-td">6/6</td>
+
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">7</td>
+																<td class="table__cell-td">12</td>
+
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+																<td class="table__cell-td">5</td>
+															</tr>
+														</tbody>
+														<tfoot>
+															<tr>
+																<th class="table__cell-th first-column">-</th>
+																<th class="table__cell-th second-column">команда</th>
+
+																<td class="table__cell-td">0</td>
+																<td class="table__cell-td">0</td>
+
+																<td class="table__cell-td">0/0</td>
+																<td class="table__cell-td">0/0</td>
+																<td class="table__cell-td">0/0</td>
+																<td class="table__cell-td">0/0</td>
+
+																<td class="table__cell-td">-</td>
+																<td class="table__cell-td">-</td>
+																<td class="table__cell-td">-</td>
+
+																<td class="table__cell-td">-</td>
+																<td class="table__cell-td">-</td>
+																<td class="table__cell-td">-</td>
+																<td class="table__cell-td">-</td>
+																<td class="table__cell-td">-</td>
+																<td class="table__cell-td">-</td>
+																<td class="table__cell-td">-</td>
+																<td class="table__cell-td">-</td>
+															</tr>
+														</tfoot>
+													</table>
+												</div>
+											</div>
+										</div>
+										<div class="tabs__body game-box-score__tabs-body">
+											<div class="game-box-score__tabs-row">
+												2
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+
+				<!-- ============== PAGE FLORE-4 / SECTION-4 ============= -->
+				<div class="page__flor-4">
+					<div class="page__section-4 page__container">
+						<!-- =========== TOURNAMENT - TEAM BOX SCORE ========== -->
+						<section class="tournament__team-box-score">
+							<h2 class="section__title-center-big">сравнение команд</h2>
+							<div class="team-box-score__table__box">
+								<table class="table__body table_sort">
+									<thead>
+										<tr class="first-header">
+											<th rowspan="2" colspan="2" class="table__cell-th top-left ">Команды</th>
+											<!-- <th rowspan="2" class="table__cell-th top-left-two">-</th>
+				<th rowspan="2" class="table__cell-th table__head-cell">-</th> -->
+											<th rowspan="2" class="table__cell-th table__head-cell">очки</th>
+											<th colspan="2" class="table__cell-th table__head-cell">2-х</th>
+											<th colspan="2" class="table__cell-th table__head-cell">3-х</th>
+											<th colspan="2" class="table__cell-th table__head-cell">броски</th>
+											<th colspan="2" class="table__cell-th table__head-cell">штрафные</th>
+											<th colspan="3" class="table__cell-th table__head-cell">подбор</th>
+											<th rowspan="2" class="table__cell-th table__head-cell">гп</th>
+											<th rowspan="2" class="table__cell-th table__head-cell">пх</th>
+											<th rowspan="2" class="table__cell-th table__head-cell">бш</th>
+											<th rowspan="2" class="table__cell-th table__head-cell">пт</th>
+											<th rowspan="2" class="table__cell-th table__head-cell">ф</th>
+											<th rowspan="2" class="table__cell-th table__head-cell">эк</th>
+											<!-- <th class="table__cell-th">E</th>
+				<th class="table__cell-th">E</th>
+				<th class="table__cell-th">E</th>
+				<th class="table__cell-th">E</th>
+				<th class="table__cell-th">E</th> -->
+										</tr>
+										<tr class="second-header">
+											<!-- <th class="table__cell-th top-left">00</th> -->
+											<!-- <th class="table__cell-th top-left-two">A</th> -->
+											<!-- <th class="table__cell-th">B</th> -->
+											<!-- <th class="table__cell-th">C</th> -->
+											<th class="table__cell-th table__head-cell">з/б</th>
+											<th class="table__cell-th table__head-cell">%</th>
+											<th class="table__cell-th table__head-cell">з/б</th>
+											<th class="table__cell-th table__head-cell">%</th>
+											<th class="table__cell-th table__head-cell">з/б</th>
+											<th class="table__cell-th table__head-cell">%</th>
+											<th class="table__cell-th table__head-cell">з/б</th>
+											<th class="table__cell-th table__head-cell">%</th>
+											<th class="table__cell-th table__head-cell">сщ</th>
+											<th class="table__cell-th table__head-cell">чщ</th>
+											<th class="table__cell-th table__head-cell">пб</th>
+											<!--<th class="table__cell-th table__head-cell">-</th>
+				<th class="table__cell-th table__head-cell">-</th>
+				<th class="table__cell-th">-</th>
+				<th class="table__cell-th">-</th> -->
+
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th class="table__cell-th first-column">
+												<picture><source srcset="img/Logo/logo-cska.webp" type="image/webp"><img class="team-box-score__team-image" src="img/Logo/logo-cska.png?_v=1648425992743" alt=""></picture>
+											</th>
+											<th class="table__cell-th second-column">СШОР Динамо Юность Москвы</th>
+
+
+											<td class="table__cell-td">103</td>
+											<td class="table__cell-td">35/70</td>
+											<td class="table__cell-td">50%</td>
+
+											<td class="table__cell-td">12/18</td>
+											<td class="table__cell-td">61.7%</td>
+
+											<td class="table__cell-td">48/92</td>
+											<td class="table__cell-td">52.5%</td>
+
+											<td class="table__cell-td">17/17</td>
+											<td class="table__cell-td">100%</td>
+
+											<td class="table__cell-td">30</td>
+											<td class="table__cell-td">30</td>
+											<td class="table__cell-td">60</td>
+											<td class="table__cell-td">15</td>
+											<td class="table__cell-td">20</td>
+											<td class="table__cell-td">15</td>
+											<td class="table__cell-td">20</td>
+											<td class="table__cell-td">15</td>
+											<td class="table__cell-td">15</td>
+										</tr>
+										<tr>
+											<th class="table__cell-th first-column">
+												<picture><source srcset="img/Logo/logo-unics.webp" type="image/webp"><img class="team-box-score__team-image" src="img/Logo/logo-unics.png?_v=1648425992743" alt=""></picture>
+											</th>
+											<th class="table__cell-th second-column">СШОР ЦСКА</th>
+											<td class="table__cell-td">103</td>
+											<td class="table__cell-td">35/70</td>
+											<td class="table__cell-td">50%</td>
+
+											<td class="table__cell-td">12/18</td>
+											<td class="table__cell-td">61.7%</td>
+
+											<td class="table__cell-td">48/92</td>
+											<td class="table__cell-td">52.5%</td>
+
+											<td class="table__cell-td">17/17</td>
+											<td class="table__cell-td">100%</td>
+
+											<td class="table__cell-td">30</td>
+											<td class="table__cell-td">30</td>
+											<td class="table__cell-td">60</td>
+											<td class="table__cell-td">15</td>
+											<td class="table__cell-td">20</td>
+											<td class="table__cell-td">15</td>
+											<td class="table__cell-td">20</td>
+											<td class="table__cell-td">15</td>
+											<td class="table__cell-td">15</td>
+										</tr>
+									</tbody>
+									<!-- <tfoot>
+			<tr>
+				<th class="table__cell-th first-column">-</th>
+				<th class="table__cell-th second-column">команда</th>
+
+				<td class="table__cell-td">0</td>
+				<td class="table__cell-td">0</td>
+
+				<td class="table__cell-td">0/0</td>
+				<td class="table__cell-td">0/0</td>
+				<td class="table__cell-td">0/0</td>
+				<td class="table__cell-td">0/0</td>
+
+				<td class="table__cell-td">-</td>
+				<td class="table__cell-td">-</td>
+				<td class="table__cell-td">-</td>
+
+				<td class="table__cell-td">-</td>
+				<td class="table__cell-td">-</td>
+				<td class="table__cell-td">-</td>
+				<td class="table__cell-td">-</td>
+				<td class="table__cell-td">-</td>
+				<td class="table__cell-td">-</td>
+				<td class="table__cell-td">-</td>
+				<td class="table__cell-td">-</td>
+			</tr>
+		</tfoot> -->
+								</table>
+							</div>
+						</section>
+					</div>
+				</div>
+				<!-- ============================ SECTION PARTNERS ================================ -->
+				<div class="page__partners">
+					<div class="section__title-box title-box__container">
+						<h2 class="section__title">наши партнеры</h2>
+					</div>
+					<!-- ================= SECTION PARTNERS =================== -->
+
+					<div class="page-partners__slider">
+						<div class="page-partners__body _swiper">
+							<div class="page-partners__slide">
+								<div class="page-partners__image">
+									<a href="#" class="page-partners__link">
+										<picture><source srcset="img/partners/13.webp" type="image/webp"><img class="page-partners__image-cover" src="img/partners/13.jpg?_v=1648425992743" alt=""></picture>
+									</a>
+								</div>
+							</div>
+							<div class="page-partners__slide">
+								<div class="page-partners__image">
+									<a href="#" class="page-partners__link">
+										<picture><source srcset="img/partners/14.webp" type="image/webp"><img class="page-partners__image-cover" src="img/partners/14.jpg?_v=1648425992743" alt=""></picture>
+									</a>
+								</div>
+							</div>
+							<div class="page-partners__slide">
+								<div class="page-partners__image">
+									<a href="#" class="page-partners__link">
+										<picture><source srcset="img/partners/15.webp" type="image/webp"><img class="page-partners__image-cover" src="img/partners/15.jpg?_v=1648425992743" alt=""></picture>
+									</a>
+								</div>
+							</div>
+							<div class="page-partners__slide">
+								<div class="page-partners__image">
+									<a href="#" class="page-partners__link">
+										<picture><source srcset="img/partners/16.webp" type="image/webp"><img class="page-partners__image-cover" src="img/partners/16.jpg?_v=1648425992743" alt=""></picture>
+									</a>
+								</div>
+							</div>
+							<div class="page-partners__slide">
+								<div class="page-partners__image">
+									<a href="#" class="page-partners__link">
+										<picture><source srcset="img/partners/17.webp" type="image/webp"><img class="page-partners__image-cover" src="img/partners/17.jpg?_v=1648425992743" alt=""></picture>
+									</a>
+								</div>
+							</div>
+							<div class="page-partners__slide">
+								<div class="page-partners__image">
+									<a href="#" class="page-partners__link">
+										<picture><source srcset="img/partners/18.webp" type="image/webp"><img class="page-partners__image-cover" src="img/partners/18.jpg?_v=1648425992743" alt=""></picture>
+									</a>
+								</div>
+							</div>
+							<div class="page-partners__slide">
+								<div class="page-partners__image">
+									<a href="#" class="page-partners__link">
+										<picture><source srcset="img/partners/19.webp" type="image/webp"><img class="page-partners__image-cover" src="img/partners/19.jpg?_v=1648425992743" alt=""></picture>
+									</a>
+								</div>
+							</div>
+							<div class="page-partners__slide">
+								<div class="page-partners__image">
+									<a href="#" class="page-partners__link">
+										<picture><source srcset="img/partners/20.webp" type="image/webp"><img class="page-partners__image-cover" src="img/partners/20.jpg?_v=1648425992743" alt=""></picture>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="page-partners__dotts"></div>
+						<!-- <div class="page-partners__arrows slider-arrows">
+		<button type="button" class="slider-nav slider-arrow_next _icon-arrow-down-icon"></button>
+		<button type="button" class="slider-nav slider-arrow_prev _icon-arrow-down-icon"></button>
+	</div> -->
+					</div>
+				</div>
+				<!-- ============================ SPOLLERS ON ================================ -->
+				<div data-spollers class="spollers-on">
+					<div class="publications-chronicle__menu">
+						<button type="button" data-spoller class="section__title-2 publications-chronicle__menu-title">тип
+							публикации</button>
+						<div class="publications-chronicle__menu-body">
+							<div class="publications-chronicle__menu-items">
+								<button class="selected-button show-all publications-chronicle__menu-item-1">Публикации</button>
+								<button class="selected-button news publications-chronicle__menu-item-2">Новости</button>
+								<button class="selected-button article publications-chronicle__menu-item-3">Статьи</button>
+								<button class="selected-button interview publications-chronicle__menu-item-4">Интервью</button>
+								<button class="selected-button video publications-chronicle__menu-item-5">Видео</button>
+								<button class="selected-button event publications-chronicle__menu-item-6">События</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ============================ FOOTER ================================ -->
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__body">
+						<div class="footer__main">
+							<a href="" class="footer__logo"></a>
+						</div>
+						<div data-spollers="769,max" class="footer__menu menu-footer">
+							<div class="menu-footer__column">
+								<button type="button" data-spoller class="menu-footer__title _footer-title">Меню</button>
+								<ul class="menu-footer__list">
+									<li><a href="" class="menu-footer__link">Хроника публикаций</a></li>
+									<li><a href="" class="menu-footer__link">Статистика</a></li>
+									<li><a href="" class="menu-footer__link">Рейтинги</a></li>
+									<li><a href="" class="menu-footer__link">Баскетбольная карта</a></li>
+									<li><a href="" class="menu-footer__link">Сообщество</a></li>
+									<li><a href="" class="menu-footer__link">Медиа-архив</a></li>
+									<li><a href="" class="menu-footer__link">Календарь</a></li>
+									<li><a href="" class="menu-footer__link">Доска объявлений</a></li>
+									<!--<li><a href="" class="menu-footer__link">Разное</a></li>-->
+								</ul>
+							</div>
+							<div class="menu-footer__column">
+								<button type="button" data-spoller class="menu-footer__title _footer-title">О нас</button>
+								<ul class="menu-footer__list">
+									<li><a href="" class="menu-footer__link">Цели и задачи</a></li>
+									<li><a href="" class="menu-footer__link">Партнеры и спонсоры</a></li>
+									<li><a href="" class="menu-footer__link">Сотрудничество</a></li>
+									<li><a href="" class="menu-footer__link">Личные данные</a></li>
+									<li><a href="" class="menu-footer__link">Рекламное предложение</a></li>
+									<li><a href="" class="menu-footer__link">Сайт в подарок</a></li>
+									<li><a href="" class="menu-footer__link">Вступить в сообщество</a></li>
+									<li><a href="" class="menu-footer__link">Задать вопрос</a></li>
+									<!--<li><a href="" class="menu-footer__link">Сообщить об ошибке</a></li>-->
+								</ul>
+							</div>
+							<div class="menu-footer__column">
+								<button type="button" data-spoller class="menu-footer__title _footer-title">Контакты</button>
+								<ul class="menu-footer__list">
+									<li>
+										<a href="" class="contacts-footer__item _icon-vk-vk-icon"><span>vkontakte</span></a>
+									</li>
+									<li><a href="" class="contacts-footer__item _icon-facebook-icon"><span>facebook</span></a></li>
+									<li><a href="" class="contacts-footer__item _icon-instagram-icon"><span>instagram</span></a></li>
+									<li><a href="" class="contacts-footer__item _icon-telegram-icon"><span>telegram</span></a></li>
+									<li><a href="" class="contacts-footer__item _icon-youtube-icon"><span>youtube</span></a></li>
+									<li><a href="" class="contacts-footer__item _icon-whatsapp-icon"><span>watsapp</span></a></li>
+									<li><a href="tel:+79257402741" class="contacts-footer__item _icon-phone-icon"><span>+7925 740
+												2741</span></a></li>
+									<li><a href="email:jumpball@gmail.com" class="contacts-footer__item _icon-envelope-icon"><span>jumpball@gmail.com</span></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer__subscribe subscribe">
+							<button type="button" data-spoller class="subscribe__title _footer-title">Рассылка</button>
+							<!--<div class="subscribe__title _footer-title">Рассылка</div>-->
+							<form data-popup="#subscribe" data-test action="#" class="subscribe__form">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Введите свой E-mail" class="subscribe__input _req _email">
+								<button type="submit" class="subscribe__button _icon-envelope-icon"></button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<!-- PRIVATE OFFICE (ЛИЧНЫЙ КАБИНЕТ) -->
+	<div id="private-office" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+					здесь будет форма входа и регистрации
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- SELECT LANG (ВЫБРАТЬ ЯЗЫК) -->
+	<div id="select-lang" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+					здесь будет форма входа и регистрации
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- SUBSCRIBE (ПОДПИСАТЬСЯ НА РАССЫЛКУ) -->
+	<div id="subscribe" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+					здесь будет форма входа и регистрации
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ADD TO MAP (ДОБАВИТЬ НА КАРТУ) -->
+	<div id="add-to-map" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+
+				<div class="popup__text">
+					<div class="popup__title">
+						<h2 class="typing-demo">Добавить на карту</h2>
+						<button data-close type="button" class="popup__close"></button>
+					</div>
+
+					<form class="add-to-map" action="add-to-map" method="post">
+						<fieldset class="form__fieldset">
+							<legend class="form__legend">Информация</legend>
+
+							<div class="entity__type-cat form__item">
+								<div class="form__item">
+									<label class="form__label" for="entity__type-sel">тип</label>
+									<select id="entity__type-sel" name="form[]" class="form">
+										<option value="1" selected>Выбрать тип</option>
+										<option value="2">Организация</option>
+										<option value="3">ОбЪект</option>
+										<option value="4">Событие</option>
+										<option value="4">Услуга</option>
+									</select>
+								</div>
+								<div class="form__item">
+									<label class="form__label" for="entity__category-sel">категория</label>
+									<select id="entity__category-sel" name="form[]" class="form">
+										<option value="1" selected>Выбрать категорию</option>
+										<option value="2">категории</option>
+										<option value="3">зависят</option>
+										<option value="4">от выбанного</option>
+										<option value="4">типа сущности</option>
+									</select>
+								</div>
+							</div>
+
+
+							<div class="form__item">
+								<label class="form__label" for="entity__name-inp">полное название</label>
+								<input id="entity__name-inp" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="введите название" class="input">
+							</div>
+
+						</fieldset>
+
+						<fieldset class="form__fieldset">
+							<legend class="form__legend">адрес и геолокация</legend>
+
+							<div class="form__item">
+								<label class="form__label" for="entity__country-sel">выбрать страну</label>
+								<select id="entity__country-sel" name="form[]" class="form">
+									<option value="1" selected>Россия</option>
+									<option value="2">Белоруссия</option>
+									<option value="3">Литва</option>
+									<option value="4">Латвия</option>
+									<option value="4">Испания</option>
+								</select>
+							</div>
+
+							<div class="form__item">
+								<label class="form__label" for="entity__city-sel">выбрать город</label>
+								<select id="entity__city-sel" name="form[]" class="form">
+									<option value="1" selected>Москва</option>
+									<option value="2">Калининград</option>
+									<option value="3">Санкт-Петербург</option>
+									<option value="4">Новосибирск</option>
+									<option value="4">Екатеринбург</option>
+								</select>
+							</div>
+
+							<div class="form__item">
+								<label class="form__label" for="entity__address-inp">улица</label>
+								<input id="entity__address-inp" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="введите улицу" class="input">
+							</div>
+
+							<div class="entity__address form__item">
+								<div class="entity__address-col">
+									<label class="form__label" for="entity__house-inp">дом</label>
+									<input id="entity__house-inp" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="введите дом" class="input">
+								</div>
+								<div class="entity__address-col">
+									<label class="form__label" for="entity__block-inp">корпус</label>
+									<input id="entity__block-inp" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="введите корпус" class="input">
+								</div>
+								<div class="entity__address-col">
+									<label class="form__label" for="entity__tel-inp">телефон</label>
+									<input id="entity__tel-inp" autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="введите телефон" class="input">
+								</div>
+
+							</div>
+							<div class="entity__coordinates form__item">
+								<div class="entity__coordinates-col">
+									<label class="form__label" for="entity__width-inp">широта</label>
+									<input id="entity__width-inp" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="введите широту" class="input">
+								</div>
+								<div class="entity__coordinates-col">
+									<label class="form__label" for="entity__longitude-inp">долгота</label>
+									<input id="entity__longitude-inp" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="введите долготу" class="input">
+								</div>
+
+							</div>
+
+							<div class="form__item">
+								<div class="checkbox">
+									<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="c_1" class="checkbox__label"><span class="checkbox__text">Согласен на обработку
+											персональных данных</span></label>
+								</div>
+							</div>
+
+						</fieldset>
+						<button type="submit" class="form__button-submit">Добавить</button>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="js/app.min.js?_v=20220328030632"></script>
+
+</body>
+
+</html>
