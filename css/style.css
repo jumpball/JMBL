@@ -6210,13 +6210,9 @@ body.popup-show::after {
 
 .game-progress__teams {
   margin-top: 1.25rem;
-  display: grid;
-  grid-template-columns: 1fr 6.25rem 1fr;
-}
-@media (max-width: 28.125rem) {
-  .game-progress__teams {
-    grid-template-columns: 1fr 5rem 1fr;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .game-progress__tabs {
   margin: 1.25rem 0px;
