@@ -5729,28 +5729,38 @@ body.popup-show::after {
 .game-compare__team-card-l {
   display: flex;
   justify-content: start;
-  margin-left: 1.25rem;
 }
 @media (max-width: 55rem) {
   .game-compare__team-card-l {
     flex-direction: column;
     align-self: flex-start;
+    width: 100%;
   }
 }
 .game-compare__team-card-r {
   display: flex;
   justify-content: end;
-  margin-right: 1.25rem;
 }
 @media (max-width: 55rem) {
   .game-compare__team-card-r {
     flex-direction: column-reverse;
+    width: 100%;
     align-self: flex-end;
+  }
+}
+@media (max-width: 55rem) {
+  .game-compare__team-logo-l {
+    left: calc(50% - 30px);
   }
 }
 .game-compare__team-logo-r {
   display: flex;
   justify-content: end;
+}
+@media (max-width: 55rem) {
+  .game-compare__team-logo-r {
+    right: calc(50% - 30px);
+  }
 }
 .game-compare__team-image {
   width: 6.25rem;
