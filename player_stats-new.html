@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>page new</title>
+	<title>player stats</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="stylesheet" href="css/style.min.css?_v=20220407152839">
@@ -155,110 +155,40 @@
 
 		</header>
 		<div class="page">
-			<!-- ====================== PAGE-TOURNAMENT WRAPPER ====================== -->
-			<div class="page__tournament-wrapper">
+			<!-- ====================== PAGE-PERSON WRAPPER ====================== -->
+			<div class="page__person-wrapper">
 				<!-- ================== BREADCRUMS ============== -->
 				<div class="page__breadcrumb page__container">
 					<nav class="breadcrumb__box" aria-label="breadcrumb">
 						<ol class="breadcrumb__list">
 							<li class="breadcrumb__item"><a href="#">Главная</a></li>
-							<li class="breadcrumb__item"><a href="#">Турниры</a></li>
-							<li class="breadcrumb__item"><a href="#">Суперлига-1</a></li>
-							<li class="breadcrumb__item active" aria-current="page">Главная</li>
+							<li class="breadcrumb__item"><a href="#">Сообщество</a></li>
+							<li class="breadcrumb__item"><a href="#">Игроки</a></li>
+							<li class="breadcrumb__item"><a href="#">карданахишвили Александр</a></li>
+							<li class="breadcrumb__item active" aria-current="page">статистика</li>
 						</ol>
 					</nav>
 				</div>
-				<!-- ============== TOURNAMENT - TITLE ============= -->
-				<div class="page__container">
+				<!-- ============== PAGE - TITLE ============= -->
+				<!-- <div class="page__container">
 					<h1 class="section__title tournament__title">Суперлига-1</h1>
-				</div>
+				</div> -->
 
 				<!-- ============== SECTION HEADER ============= -->
 				<div class="page__head-flor">
-					<div class="page__tournament-header page__container">
-						<!-- ====================== TOURNAMENT - HEADER & NAVIGATION ====================== -->
-						<section class="tournament__header-box">
-							<div class="tournament__stage-menu">
-								<!-- ============== PUBLICATIONS SEARCH & NAV =============== -->
-								<div data-spollers="991.98, max" class="spollers">
-									<div class="tournament-stage__search">
-										<button type="button" data-spoller class="section__title-2 tournament-stage__search-title">выбрать этап</button>
-										<div class="tournament-stage__search-body">
-											<div class="tournament-stage__search-group">
-												<div class="tournament-stage__search-block">
-													<div class="tournament-stage__search-block-item">
-														<form action="#" class="tournament-stage__select-form">
-															<div class="tournament-stage__select-line">
-																<label class="select__label" for="tournament-stage__select-season">выбрать сезон</label>
-																<select data-scroll id="tournament-stage__select-season" name="form[]" class="tournament-stage__select-list">
-																	<option class="tournament-stage__select-item" value="1" selected="selected">2021/2022
-																	</option>
-																	<option class="tournament-stage__select-item" value="2">2020/2021
-																	</option>
-
-																	<option class="tournament-stage__select-item" value="3">2019/2020
-																	</option>
-																	<option class="tournament-stage__select-item" value="4">2018/2019
-																	</option>
-																</select>
-															</div>
-															<div class="tournament-stage__select-line">
-																<label class="select__label" for="tournament-stage__select-stage">выбрать этап</label>
-																<select data-scroll id="tournament-stage__select-stage" name="form[]" class="tournament-stage__select-list">
-																	<option class="tournament-stage__select-item" value="1" selected="selected">все этапы
-																	</option>
-																	<option class="tournament-stage__select-item" value="2">отборочный этап
-																	</option>
-
-																	<option class="tournament-stage__select-item" value="3">полуфинальный этап
-																	</option>
-																	<option class="tournament-stage__select-item" value="4">финальный этап
-																	</option>
-																</select>
-															</div>
-															<div class="tournament-stage__select-line">
-																<label class="select__label" for="tournament-stage__select-tour">выбрать тур</label>
-																<select data-scroll id="tournament-stage__select-tour" name="form[]" class="tournament-stage__select-list">
-																	<option class="tournament-stage__select-item" value="1" selected="selected">все туры
-																	</option>
-																	<option class="tournament-stage__select-item" value="2">1 тур
-																	</option>
-
-																	<option class="tournament-stage__select-item" value="3">2 тур
-																	</option>
-																	<option class="tournament-stage__select-item" value="4">3 тур
-																	</option>
-																</select>
-															</div>
-															<div class="tournament-stage__select-line">
-																<label class="select__label" for="tournament-stage__select-group">выбрать группу</label>
-																<select data-scroll id="tournament-stage__select-group" name="form[]" class="tournament-stage__select-list">
-																	<option class="tournament-stage__select-item" value="1" selected="selected">все группы
-																	</option>
-																	<option class="tournament-stage__select-item" value="2">группа А
-																	</option>
-
-																	<option class="tournament-stage__select-item" value="3">группа Б
-																	</option>
-																	<option class="tournament-stage__select-item" value="4">группа В
-																	</option>
-																	<option class="tournament-stage__select-item" value="4">группа Г
-																	</option>
-																</select>
-															</div>
-														</form>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+					<div class="page__player-header page__container">
+						<!-- ====================== PERSON - HEADER & NAVIGATION ====================== -->
+						<section class="player__header-box">
 							<div class="header-profile header-profile__tournament">
 								<div class="header-profile__row">
+									<div class="header-profile__team-logo">
+										<picture><source srcset="img/Logo/logo-cska.webp" type="image/webp"><img src="img/Logo/logo-cska.png?_v=1649334519867" alt=""></picture>
+									</div>
 									<div class="header-profile__content">
-										<div class="header-profile__image">
-											<a href="#" class="header-profile__tournament-logo"><img src="img/Logo/superliga_logo.svg?_v=1649334519867" alt="tournament-logo"></a>
+										<div class="header-profile__player-num"> <span>17</span>
+										</div>
+										<div class="header-profile__photo">
+											<picture><source srcset="img/players/1.webp" type="image/webp"><img src="img/players/1.jpg?_v=1649334519867" alt="player-photo"></picture>
 										</div>
 
 										<div class="header-profile__info">
@@ -266,16 +196,16 @@
 											<div class="header-profile__desc">
 												<div class="header-profile__title">
 													<a href="#">
-														<h2>суперлига-1</h2>
+														<h2>карданахишвили константин</h2>
 													</a>
 													<span></span>
 												</div>
 												<div class="header-profile__line">
 												</div>
 												<ul class="header-profile__list">
-													<li>чемпионат россии</li>
-													<li>мужчины</li>
-													<li>2021/2022</li>
+													<li>легкий форвард</li>
+													<li>12.07.1998</li>
+													<li>198 см / 101 кг</li>
 													<!-- <li><span>u16</span><span>/</span><span>юноши 2005</span></li> -->
 												</ul>
 											</div>
@@ -298,28 +228,24 @@
 									<div class="header-profile__bg-mini">
 										<picture><source srcset="img/profile/header-page-player-bg-mini.webp" type="image/webp"><img src="img/profile/header-page-player-bg-mini.png?_v=1649334519867" alt=""></picture>
 									</div>
-									<!-- <div class="header-profile__bg-smal">
-			<picture><source srcset="img/profile/header-page-player-bg-smal.webp" type="image/webp"><img src="img/profile/header-page-player-bg-smal.png?_v=1649334519867" alt=""></picture>
-		</div> -->
 									<div class="header-profile__bg-silhouette">
 										<img src="img/Logo/player_silhouette.svg?_v=1649334519867" alt="">
 									</div>
 								</div>
 							</div>
-							<!--=============== TOURNAMENT MENU-3 =============-->
-							<div class="tournament__profile-menu">
+							<!--=============== PLAYER MENU-3 =============-->
+							<div class="player__profile-menu">
 								<nav class="desktop-menu">
-									<ul class="desktop-menu__list">
-										<li class="desktop-menu__item desktop-menu__item-active"><a class="desktop-menu__link" href="#">Главная</a></li>
-										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Матч-центр</a></li>
-										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Таблица</a></li>
-										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Статистика</a></li>
+									<ul class="desktop-menu__list-2">
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Профайл</a></li>
+										<li class="desktop-menu__item  desktop-menu__item-active"><a class="desktop-menu__link" href="#">Статистика</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Карта бросков</a>
+										</li>
 										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Календарь</a></li>
-										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Команды</a></li>
-										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Игроки</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Достижения</a></li>
 										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Рекорды</a></li>
-										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">История</a></li>
-										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Медиа</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Публикации</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Фотогалерея</a></li>
 									</ul>
 								</nav>
 								<div class="mobile-menu">
@@ -330,16 +256,14 @@
 										<span class="third"></span>
 									</label>
 									<ul class="hidden-menu">
-										<li class="hidden-menu__item"><a href="" class="hidden-menu__list">Главная</a></li>
-										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Матч-центр</a></li>
-										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Таблица</a></li>
+										<li class="hidden-menu__item"><a href="" class="hidden-menu__list">Профайл</a></li>
 										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Статистика</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Карта бросков</a></li>
 										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Календарь</a></li>
-										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Команды</a></li>
-										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Игроки</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Достижения</a></li>
 										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Рекорды</a></li>
-										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">История</a></li>
-										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Медиа</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Публикации</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Фотогалерея</a></li>
 									</ul>
 								</div>
 							</div>
@@ -350,11 +274,253 @@
 				<!-- ============== PAGE FLORE-1 / SECTION-1 ============= -->
 				<div class="page__flor-1">
 					<div class="page__section-1 page__container">
-						<!-- ====================== +++ ====================== -->
-						<section class="page__section-name-box">
-							<h2 class="section__title-2 page__section-title">+++</h2>
-							<h2 class="section__title-center-big">+++</h2>
+						<!-- ======== PLAYER - STATS ========== -->
+						<section class="player__stats-section">
+							<!-- <h2 class="section__title-center-big">профайл</h2> -->
 
+							<div class="player__stats">
+								<h3 class="section__title-2 player__stats-title">статистика</h3>
+								<div class="player__stats-body">
+									<div class="person-stats__nav-row">
+										<form action="#" class="person-stats__form">
+											<div class="person-stats__line">
+												<label class="person-stats__label" for="select-season">Выбрать сезон</label>
+												<select name="form[]" id="select-season" class="person-stats__list">
+													<option class="person-stats__item" value="1" selected="selected">все сезоны</option>
+													<option class="person-stats__item" value="2">2021/2022</option>
+													<option class="person-stats__item" value="3">2020/2021</option>
+													<option class="person-stats__item" value="4">2019/2020</option>
+													<option class="person-stats__item" value="5">2018/2019</option>
+													<option class="person-stats__item" value="6">2017/2018</option>
+													<option class="person-stats__item" value="7">2016/2017</option>
+												</select>
+											</div>
+											<div class="person-stats__line">
+												<label class="person-stats__label" for="select-tournament">Выбрать турнир</label>
+												<select name="form[]" id="select-tournament" class="person-stats__list">
+													<option class="person-stats__item" value="1" selected="selected">все турниры</option>
+													<option class="person-stats__item" value="2">Единая Лига ВТБ</option>
+													<option class="person-stats__item" value="3">Суперлига-1</option>
+													<option class="person-stats__item" value="4">Молодежная Лига ВТБ</option>
+													<option class="person-stats__item" value="5">Первенство России</option>
+													<option class="person-stats__item" value="6">Сборная России</option>
+												</select>
+											</div>
+											<div class="person-stats__line">
+												<label class="person-stats__label" for="wiew-stats">Показать статистику</label>
+												<select name="form[]" id="wiew-stats" class="person-stats__list">
+													<option class="person-stats__item" value="1" selected="selected">В среднем за игру</option>
+													<option class="person-stats__item" value="2">Абсолютные показатели</option>
+												</select>
+											</div>
+										</form>
+									</div>
+									<div class="game-box-score__tabs-row">
+										<div class="game-box-score__table__box">
+											<table class="table__body table_sort">
+												<thead>
+													<tr class="first-header">
+														<th rowspan="2" class="table__cell-th top-left">сезон</th>
+														<th rowspan="2" class="table__cell-th top-left-two">команда</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">игры</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">5</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">мин</th>
+
+														<th colspan="2" class="table__cell-th table__head-cell">2-х</th>
+														<th colspan="2" class="table__cell-th table__head-cell">3-х</th>
+														<th colspan="2" class="table__cell-th table__head-cell">шт</th>
+														<th colspan="3" class="table__cell-th table__head-cell">Подбор</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">гп</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">пх</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">бш</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">пт</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">фс</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">ф</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">+/-</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">кпи</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">очки</th>
+														<!-- <th class="table__cell-th">E</th>
+<th class="table__cell-th">E</th>
+<th class="table__cell-th">E</th>
+<th class="table__cell-th">E</th>
+<th class="table__cell-th">E</th> -->
+													</tr>
+													<tr class="second-header">
+														<!-- <th class="table__cell-th top-left">00</th> -->
+														<!-- <th class="table__cell-th top-left-two">A</th> -->
+														<!-- <th class="table__cell-th">B</th> -->
+														<!-- <th class="table__cell-th">C</th> -->
+														<th class="table__cell-th table__head-cell">п / б</th>
+														<th class="table__cell-th table__head-cell">%</th>
+														<th class="table__cell-th table__head-cell">п / б</th>
+														<th class="table__cell-th table__head-cell">%</th>
+														<th class="table__cell-th table__head-cell">п / б</th>
+														<th class="table__cell-th table__head-cell">%</th>
+														<th class="table__cell-th table__head-cell">сщ</th>
+														<th class="table__cell-th table__head-cell">чщ</th>
+														<th class="table__cell-th table__head-cell">вс</th>
+														<!-- <th class="table__cell-th">-</th>
+<th class="table__cell-th">-</th>
+<th class="table__cell-th">-</th>
+<th class="table__cell-th">-</th>
+<th class="table__cell-th">-</th>
+<th class="table__cell-th">-</th>
+<th class="table__cell-th">-</th>
+<th class="table__cell-th">-</th> -->
+
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<th class="table__cell-th first-column">2021/2022</th>
+														<th class="table__cell-th second-column">локомотив кубань<span></span></th>
+														<td class="table__cell-td">14</td>
+														<td class="table__cell-td">12</td>
+														<td class="table__cell-td">12:45</td>
+
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+
+
+													</tr>
+													<tr>
+														<th class="table__cell-th first-column">2020/2021</th>
+														<th class="table__cell-th second-column">нижний новгород<span></span></th>
+
+														<td class="table__cell-td">14</td>
+														<td class="table__cell-td">12</td>
+														<td class="table__cell-td">12:45</td>
+
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+													</tr>
+													<tr>
+														<th class="table__cell-th first-column">2019/2020</th>
+														<th class="table__cell-th second-column">химки<span></span></th>
+
+
+														<td class="table__cell-td">14</td>
+														<td class="table__cell-td">12</td>
+														<td class="table__cell-td">12:45</td>
+
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+													</tr>
+													<tr>
+														<th class="table__cell-th first-column">2018/2019</th>
+														<th class="table__cell-th second-column">цска<span></span></th>
+														<td class="table__cell-td">14</td>
+														<td class="table__cell-td">12</td>
+														<td class="table__cell-td">12:45</td>
+
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+													</tr>
+
+												</tbody>
+												<tfoot>
+													<tr>
+														<th class="table__cell-th first-column">карьера</th>
+														<th class="table__cell-th second-column">всего</th>
+
+														<td class="table__cell-td">0</td>
+														<td class="table__cell-td">0</td>
+														<td class="table__cell-td">0</td>
+														<td class="table__cell-td">0/0</td>
+														<td class="table__cell-td">0%</td>
+														<td class="table__cell-td">0/0</td>
+														<td class="table__cell-td">0%</td>
+														<td class="table__cell-td">0/0</td>
+														<td class="table__cell-td">0%</td>
+
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
 						</section>
 					</div>
 				</div>
@@ -362,59 +528,241 @@
 				<!-- ============== PAGE FLORE-2 / SECTION-2 ============= -->
 				<div class="page__flor-2">
 					<div class="page__section-2 page__container">
-						<!-- ====================== +++ ====================== -->
-						<section class="page__section-name-box">
-							<h2 class="section__title-2 page__section-title">+++</h2>
-							<h2 class="section__title-center-big">+++</h2>
+						<!-- =========== PLAYER - GAME BY GAME ======== -->
+						<section class="player__by-game-stats-section">
+							<div class="player__by-game-stats">
+								<h3 class="section__title-2 player__by-game-stats-title">игра за игрой</h3>
+								<div class="player__by-game-stats-body">
+									<div class="person-stats__nav-row">
+										<form action="#" class="person-stats__form">
+											<div class="person-stats__line">
+												<label class="person-stats__label" for="select-season-2">Выбрать сезон</label>
+												<select name="form[]" id="select-season-2" class="person-stats__list">
+													<option class="person-stats__item" value="1" selected="selected">2021/2022</option>
+													<option class="person-stats__item" value="2">2020/2021</option>
+													<option class="person-stats__item" value="3">2019/2020</option>
+													<option class="person-stats__item" value="4">2018/2019</option>
+													<option class="person-stats__item" value="5">2017/2018</option>
+													<option class="person-stats__item" value="6">2016/2017</option>
+												</select>
+											</div>
+											<div class="person-stats__line">
+												<label class="person-stats__label" for="select-tournament-2">Выбрать турнир</label>
+												<select name="form[]" id="select-tournament-2" class="person-stats__list">
+													<option class="person-stats__item" value="1" selected="selected">все турниры</option>
+													<option class="person-stats__item" value="2">Единая Лига ВТБ</option>
+													<option class="person-stats__item" value="3">Суперлига-1</option>
+													<option class="person-stats__item" value="4">Молодежная Лига ВТБ</option>
+													<option class="person-stats__item" value="5">Первенство России</option>
+													<option class="person-stats__item" value="6">Сборная России</option>
+												</select>
+											</div>
 
-						</section>
-					</div>
-				</div>
+										</form>
+									</div>
+									<div class="game-box-score__tabs-row">
+										<div class="game-box-score__table__box">
+											<table class="table__body table_sort">
+												<thead>
+													<tr class="first-header">
+														<th rowspan="2" class="table__cell-th top-left">дата</th>
+														<th rowspan="2" class="table__cell-th top-left-two">соперник</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">игра</th>
 
-				<!-- ============== PAGE FLORE-3 / SECTION-3 ============= -->
-				<div class="page__flor-3">
-					<div class="page__section-3 page__container">
-						<!-- ====================== +++ ====================== -->
-						<section class="page__section-name-box">
-							<h2 class="section__title-2 page__section-title">+++</h2>
-							<h2 class="section__title-center-big">+++</h2>
+														<th rowspan="2" class="table__cell-th table__head-cell">мин</th>
 
-						</section>
-					</div>
-				</div>
+														<th colspan="2" class="table__cell-th table__head-cell">2-х</th>
+														<th colspan="2" class="table__cell-th table__head-cell">3-х</th>
+														<th colspan="2" class="table__cell-th table__head-cell">шт</th>
+														<th colspan="3" class="table__cell-th table__head-cell">Подбор</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">гп</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">пх</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">бш</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">пт</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">фс</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">ф</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">+/-</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">кпи</th>
+														<th rowspan="2" class="table__cell-th table__head-cell">очки</th>
+														<!-- <th class="table__cell-th">E</th>
+<th class="table__cell-th">E</th>
+<th class="table__cell-th">E</th>
+<th class="table__cell-th">E</th>
+<th class="table__cell-th">E</th> -->
+													</tr>
+													<tr class="second-header">
+														<!-- <th class="table__cell-th top-left">00</th> -->
+														<!-- <th class="table__cell-th top-left-two">A</th> -->
+														<!-- <th class="table__cell-th">B</th> -->
+														<!-- <th class="table__cell-th">C</th> -->
+														<th class="table__cell-th table__head-cell">п / б</th>
+														<th class="table__cell-th table__head-cell">%</th>
+														<th class="table__cell-th table__head-cell">п / б</th>
+														<th class="table__cell-th table__head-cell">%</th>
+														<th class="table__cell-th table__head-cell">п / б</th>
+														<th class="table__cell-th table__head-cell">%</th>
+														<th class="table__cell-th table__head-cell">сщ</th>
+														<th class="table__cell-th table__head-cell">чщ</th>
+														<th class="table__cell-th table__head-cell">вс</th>
+														<!-- <th class="table__cell-th">-</th>
+<th class="table__cell-th">-</th>
+<th class="table__cell-th">-</th>
+<th class="table__cell-th">-</th>
+<th class="table__cell-th">-</th>
+<th class="table__cell-th">-</th>
+<th class="table__cell-th">-</th>
+<th class="table__cell-th">-</th> -->
 
-				<!-- ============== PAGE FLORE-4 / SECTION-4 ============= -->
-				<div class="page__flor-4">
-					<div class="page__section-4 page__container">
-						<!-- ====================== +++ ====================== -->
-						<section class="page__section-name-box">
-							<h2 class="section__title-2 page__section-title">+++</h2>
-							<h2 class="section__title-center-big">+++</h2>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<th class="table__cell-th first-column">20.02.2022</th>
+														<th class="table__cell-th second-column">локомотив кубань<span></span></th>
+														<td class="table__cell-td"><a href="#">121:100</a></td>
 
-						</section>
-					</div>
-				</div>
+														<td class="table__cell-td">12:45</td>
 
-				<!-- ============== PAGE FLORE-5 / SECTION-5 ============= -->
-				<div class="page__flor-5">
-					<div class="page__section-5 page__container">
-						<!-- ====================== +++ ====================== -->
-						<section class="page__section-name-box">
-							<h2 class="section__title-2 page__section-title">+++</h2>
-							<h2 class="section__title-center-big">+++</h2>
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
 
-						</section>
-					</div>
-				</div>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
 
-				<!-- ============== PAGE FLORE-6 / SECTION-6 ============= -->
-				<div class="page__flor-6">
-					<div class="page__section-6 page__container">
-						<!-- ====================== +++ ====================== -->
-						<section class="page__section-name-box">
-							<h2 class="section__title-2 page__section-title">+++</h2>
-							<h2 class="section__title-center-big">+++</h2>
 
+													</tr>
+													<tr>
+														<th class="table__cell-th first-column">20.02.2022</th>
+														<th class="table__cell-th second-column">локомотив кубань<span></span></th>
+														<td class="table__cell-td"><a href="#">121:100</a></td>
+
+														<td class="table__cell-td">12:45</td>
+
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+													</tr>
+													<tr>
+														<th class="table__cell-th first-column">20.02.2022</th>
+														<th class="table__cell-th second-column">локомотив кубань<span></span></th>
+														<td class="table__cell-td"><a href="#">121:100</a></td>
+
+														<td class="table__cell-td">12:45</td>
+
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+													</tr>
+													<tr>
+														<th class="table__cell-th first-column">20.02.2022</th>
+														<th class="table__cell-th second-column">локомотив кубань<span></span></th>
+														<td class="table__cell-td"><a href="#">121:100</a></td>
+
+														<td class="table__cell-td">12:45</td>
+
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+														<td class="table__cell-td">2/4</td>
+														<td class="table__cell-td">50%</td>
+
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+														<td class="table__cell-td">5</td>
+													</tr>
+
+												</tbody>
+												<tfoot>
+													<tr>
+														<th class="table__cell-th first-column">2021/2022</th>
+														<th class="table__cell-th second-column">всего</th>
+
+
+														<td class="table__cell-td">0</td>
+														<td class="table__cell-td">0</td>
+														<td class="table__cell-td">0/0</td>
+														<td class="table__cell-td">0%</td>
+														<td class="table__cell-td">0/0</td>
+														<td class="table__cell-td">0%</td>
+														<td class="table__cell-td">0/0</td>
+														<td class="table__cell-td">0%</td>
+
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+														<td class="table__cell-td">-</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
 						</section>
 					</div>
 				</div>

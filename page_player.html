@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>page new</title>
+	<title>player main</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="stylesheet" href="css/style.min.css?_v=20220407152839">
@@ -155,18 +155,118 @@
 
 		</header>
 		<div class="page">
-			<!-- ====================== PAGE WRAPPER ====================== -->
-			<div class="page__wrapper">
+			<!-- ====================== PAGE-PERSON WRAPPER ====================== -->
+			<div class="page__person-wrapper">
+				<!-- ================== BREADCRUMS ============== -->
+				<div class="page__breadcrumb page__container">
+					<nav class="breadcrumb__box" aria-label="breadcrumb">
+						<ol class="breadcrumb__list">
+							<li class="breadcrumb__item"><a href="#">Главная</a></li>
+							<li class="breadcrumb__item"><a href="#">Сообщество</a></li>
+							<li class="breadcrumb__item"><a href="#">Игроки</a></li>
+							<li class="breadcrumb__item"><a href="#">карданахишвили Александр</a></li>
+							<li class="breadcrumb__item active" aria-current="page">Профайл</li>
+						</ol>
+					</nav>
+				</div>
+				<!-- ============== PAGE - TITLE ============= -->
+				<!-- <div class="page__container">
+					<h1 class="section__title tournament__title">Суперлига-1</h1>
+				</div> -->
 
 				<!-- ============== SECTION HEADER ============= -->
 				<div class="page__head-flor">
-					<div class="page__section-header page__container">
-						<h1 class="section__title page__title">+++</h1>
-						<!-- ====================== HEADER SLIDER ====================== -->
-						<section class="page__section-name-box">
-							<h2 class="section__title-2 page__section-title">+++</h2>
-							<h2 class="section__title-center-big">+++</h2>
+					<div class="page__player-header page__container">
+						<!-- ====================== PERSON - HEADER & NAVIGATION ====================== -->
+						<section class="player__header-box">
+							<div class="header-profile header-profile__tournament">
+								<div class="header-profile__row">
+									<div class="header-profile__team-logo">
+										<picture><source srcset="img/Logo/logo-cska.webp" type="image/webp"><img src="img/Logo/logo-cska.png?_v=1649334519867" alt=""></picture>
+									</div>
+									<div class="header-profile__content">
+										<div class="header-profile__player-num"> <span>17</span>
+										</div>
+										<div class="header-profile__photo">
+											<picture><source srcset="img/players/1.webp" type="image/webp"><img src="img/players/1.jpg?_v=1649334519867" alt="player-photo"></picture>
+										</div>
 
+										<div class="header-profile__info">
+
+											<div class="header-profile__desc">
+												<div class="header-profile__title">
+													<a href="#">
+														<h2>карданахишвили константин</h2>
+													</a>
+													<span></span>
+												</div>
+												<div class="header-profile__line">
+												</div>
+												<ul class="header-profile__list">
+													<li>легкий форвард</li>
+													<li>12.07.1998</li>
+													<li>198 см / 101 кг</li>
+													<!-- <li><span>u16</span><span>/</span><span>юноши 2005</span></li> -->
+												</ul>
+											</div>
+
+											<div class="header-profile__social-icons">
+												<div class="header-profile__items">
+													<a href="" class="header-profile__item _icon-VK_circle"></a>
+													<!-- <a href="" class="header-profile__item _icon-facebook-icon"></a>
+							<a href="" class="header-profile__item _icon-instagram-icon"></a> -->
+													<a href="" class="header-profile__item _icon-Telegram_circle"></a>
+													<a href="" class="header-profile__item _icon-Youtube_circle"></a>
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="header-profile__bg">
+										<picture><source srcset="img/profile/header-page-player-bg.webp" type="image/webp"><img src="img/profile/header-page-player-bg.png?_v=1649334519867" alt=""></picture>
+									</div>
+									<div class="header-profile__bg-mini">
+										<picture><source srcset="img/profile/header-page-player-bg-mini.webp" type="image/webp"><img src="img/profile/header-page-player-bg-mini.png?_v=1649334519867" alt=""></picture>
+									</div>
+									<div class="header-profile__bg-silhouette">
+										<img src="img/Logo/player_silhouette.svg?_v=1649334519867" alt="">
+									</div>
+								</div>
+							</div>
+							<!--=============== PLAYER MENU-3 =============-->
+							<div class="player__profile-menu">
+								<nav class="desktop-menu">
+									<ul class="desktop-menu__list-2">
+										<li class="desktop-menu__item desktop-menu__item-active"><a class="desktop-menu__link" href="#">Профайл</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Статистика</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Карта бросков</a>
+										</li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Календарь</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Достижения</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Рекорды</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Публикации</a></li>
+										<li class="desktop-menu__item"><a class="desktop-menu__link" href="#">Фотогалерея</a></li>
+									</ul>
+								</nav>
+								<div class="mobile-menu">
+									<input type="checkbox" id="m1" class="hidden-menu-ticker">
+									<label class="btn-menu" for="m1">
+										<span class="first"></span>
+										<span class="second"></span>
+										<span class="third"></span>
+									</label>
+									<ul class="hidden-menu">
+										<li class="hidden-menu__item"><a href="" class="hidden-menu__list">Профайл</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Статистика</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Карта бросков</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Календарь</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Достижения</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Рекорды</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Публикации</a></li>
+										<li class="hidden-menu__item"><a href="#" class="hidden-menu__list">Фотогалерея</a></li>
+									</ul>
+								</div>
+							</div>
 						</section>
 					</div>
 				</div>
@@ -174,11 +274,12 @@
 				<!-- ============== PAGE FLORE-1 / SECTION-1 ============= -->
 				<div class="page__flor-1">
 					<div class="page__section-1 page__container">
-						<!-- ====================== +++ ====================== -->
-						<section class="page__section-name-box">
-							<h2 class="section__title-2 page__section-title">+++</h2>
+						<!-- ======== PLAYER - +++ ========== -->
+						<section class="player__+++-+++">
 							<h2 class="section__title-center-big">+++</h2>
+							<div class="player__+++-+++">
 
+							</div>
 						</section>
 					</div>
 				</div>
@@ -186,9 +287,8 @@
 				<!-- ============== PAGE FLORE-2 / SECTION-2 ============= -->
 				<div class="page__flor-2">
 					<div class="page__section-2 page__container">
-						<!-- ====================== +++ ====================== -->
-						<section class="page__section-name-box">
-							<h2 class="section__title-2 page__section-title">+++</h2>
+						<!-- =========== PLAYER - +++ ======== -->
+						<section class="player__+++-+++">
 							<h2 class="section__title-center-big">+++</h2>
 
 						</section>
@@ -198,9 +298,8 @@
 				<!-- ============== PAGE FLORE-3 / SECTION-3 ============= -->
 				<div class="page__flor-3">
 					<div class="page__section-3 page__container">
-						<!-- ====================== +++ ====================== -->
-						<section class="page__section-name-box">
-							<h2 class="section__title-2 page__section-title">+++</h2>
+						<!-- =========== PLAYER - +++ ========== -->
+						<section class="player__+++-+++">
 							<h2 class="section__title-center-big">+++</h2>
 
 						</section>
@@ -210,33 +309,8 @@
 				<!-- ============== PAGE FLORE-4 / SECTION-4 ============= -->
 				<div class="page__flor-4">
 					<div class="page__section-4 page__container">
-						<!-- ====================== +++ ====================== -->
-						<section class="page__section-name-box">
-							<h2 class="section__title-2 page__section-title">+++</h2>
-							<h2 class="section__title-center-big">+++</h2>
-
-						</section>
-					</div>
-				</div>
-
-				<!-- ============== PAGE FLORE-5 / SECTION-5 ============= -->
-				<div class="page__flor-5">
-					<div class="page__section-5 page__container">
-						<!-- ====================== +++ ====================== -->
-						<section class="page__section-name-box">
-							<h2 class="section__title-2 page__section-title">+++</h2>
-							<h2 class="section__title-center-big">+++</h2>
-
-						</section>
-					</div>
-				</div>
-
-				<!-- ============== PAGE FLORE-6 / SECTION-6 ============= -->
-				<div class="page__flor-6">
-					<div class="page__section-6 page__container">
-						<!-- ====================== +++ ====================== -->
-						<section class="page__section-name-box">
-							<h2 class="section__title-2 page__section-title">+++</h2>
+						<!-- =========== PLAYER - +++ ========== -->
+						<section class="player__+++-+++">
 							<h2 class="section__title-center-big">+++</h2>
 
 						</section>
