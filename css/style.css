@@ -14161,29 +14161,17 @@ tr:hover a {
     color: #86a5d9;
     /*black*/
     margin-bottom: -20px;
-    @media (max-width: 28.125rem) {
-      margin-bottom: -15px;
-    }
   }
   /* color white*/
   30% {
     letter-spacing: 1.875rem;
     margin-bottom: -20px;
-    @media (max-width: 28.125rem) {
-      letter-spacing: 1.25rem;
-      margin-bottom: -15px;
-    }
   }
   85% {
     letter-spacing: 0.9375rem;
     margin-bottom: -20px;
-    @media (max-width: 28.125rem) {
-      letter-spacing: 0.75rem;
-      margin-bottom: -15px;
-    }
   }
 }
-
 .page-partners__slide {
   display: flex;
   justify-content: center;
